@@ -16,7 +16,7 @@ import java.util.List;
 /*
      由于默认一行行的读取excel，所以需要创建excel一行一行的回调监听器
  */
-// 有个很重要的点 DemoDataListener 不能被spring管理，要每次读取excel都要new,然后里面用到spring可以构造方法传进去
+// 有个很重要的点 ExcelReadListener 不能被spring管理，要每次读取excel都要new,然后里面用到spring可以构造方法传进去
 @Slf4j
 public class ExcelReadListener implements ReadListener<ExcelEntity> {
 
