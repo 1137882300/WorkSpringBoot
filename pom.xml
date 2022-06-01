@@ -31,13 +31,18 @@
     <collections4.version>4.4</collections4.version>
     <lang3.version>3.10</lang3.version>
     <springboot.version>2.3.12.RELEASE</springboot.version>
-
+    <logstash-logback-encoder.version>6.4</logstash-logback-encoder.version>
   </properties>
 
 
   <!--依赖管理-->
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>net.logstash.logback</groupId>
+        <artifactId>logstash-logback-encoder</artifactId>
+        <version>${logstash-logback-encoder.version}</version>
+      </dependency>
       <!--excel-->
       <dependency>
         <groupId>com.alibaba</groupId>
@@ -94,13 +99,35 @@
         <artifactId>guava</artifactId>
         <version>${guava.version}</version>
       </dependency>
-
-      <!--springboot-->
+      <!--springboot-actuator, 生产准备的特性，用于帮你监控和管理应用  -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+        <version>${springboot.version}</version>
+      </dependency>
+      <!--springboot-web ,对全栈web开发的支持，包括Tomcat和spring-webmvc-->
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
         <version>${springboot.version}</version>
-        <scope>test</scope>
+      </dependency>
+      <!--springboot-test，包括JUnit，Hamcrest和Mockito还有Spring-test模块-->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <version>${springboot.version}</version>
+      </dependency>
+      <!--springboot-log4j ,对Log4J日志系统的支持-->
+<!--      <dependency>-->
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <artifactId>spring-boot-starter-log4j</artifactId>-->
+<!--        <version>${springboot.version}</version>-->
+<!--      </dependency>-->
+      <!--springboot-Logback ,导入SpringBoot的默认日志系统 Logback-->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-logging</artifactId>
+        <version>${springboot.version}</version>
       </dependency>
 
       <!--slf4j-->
