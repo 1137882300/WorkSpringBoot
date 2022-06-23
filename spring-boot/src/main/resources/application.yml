@@ -10,16 +10,3 @@ spring:
     url: jdbc:mysql://127.0.0.1/zane?useUnicode=true&characterEncoding=utf-8&useSSL=false
     type: com.mysql.cj.jdbc.MysqlDataSource
 
-tero:
-  file:
-    aliyun:
-      oss:
-        access-key-id: LTAI4G1p5yhRUJk63YxHFa89
-        access-key-secret: 4VHzagScegEnoN1tHiM6G1KhBRUgUK
-        expired-minutes: 30
-        bucket-name: xy-league-test
-        endpoint: http://oss-cn-shenzhen.aliyuncs.com
-        internet-file-url: http://img.league-test.xyb2b.com/
-        uploadPath: bbmall/
-        maxSize: 10000000
-    suffix: JPG,PNG,PDF,XLS,XLSX,JPEG,DOC,DOCX,ZIP,PPT,PPTX,JSON
