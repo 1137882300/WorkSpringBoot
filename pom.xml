@@ -45,12 +45,27 @@
     <velocity-engine.version>2.3</velocity-engine.version>
     <jackson.version>2.13.3</jackson.version>
     <snakeyaml.version>1.30</snakeyaml.version>
+    <oss.version>3.15.0</oss.version>
+    <nacos.client.version>2.1.0</nacos.client.version>
   </properties>
 
 
   <!--依赖管理-->
   <dependencyManagement>
     <dependencies>
+      <!--oss-->
+      <dependency>
+        <groupId>com.aliyun.oss</groupId>
+        <artifactId>aliyun-sdk-oss</artifactId>
+        <version>${oss.version}</version>
+      </dependency>
+
+      <!--nacos-client-->
+      <dependency>
+        <groupId>com.alibaba.nacos</groupId>
+        <artifactId>nacos-client</artifactId>
+        <version>${nacos.client.version}</version>
+      </dependency>
 
       <!--snakeyaml-->
       <dependency>
