@@ -13,4 +13,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IBasicService extends IService<Basic> {
 
+    String findById(Long id);
+
 }

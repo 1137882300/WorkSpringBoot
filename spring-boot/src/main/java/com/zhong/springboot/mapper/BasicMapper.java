@@ -1,7 +1,7 @@
 package com.zhong.springboot.mapper;
 
-import com.zhong.springboot.po.Basic;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.zhong.springboot.po.Basic;
 
 /**
  * <p>
