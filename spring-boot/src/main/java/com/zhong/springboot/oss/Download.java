@@ -19,12 +19,12 @@ import java.util.HashMap;
 public class Download {
 
     public static void main(String[] args) {
-        String endpoint = "http://oss-cn-shenzhen.aliyuncs.com";
+        String endpoint = "xxx";
         // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
-        String accessKeyId = "LTAI4G1p5yhRUJk63YxHFa89";
-        String accessKeySecret = "4VHzagScegEnoN1tHiM6G1KhBRUgUK";
+        String accessKeyId = "xxxx";
+        String accessKeySecret = "xxx";
         // 填写Bucket名称，例如examplebucket。
-        String bucketName = "xy-league-test";
+        String bucketName = "xxxx";
         // 填写Object完整路径，例如exampledir/exampleobject.txt。Object完整路径中不能包含Bucket名称。
         String objectName = "bbmall/meta/unit/0a4f389bdef8bd8db91e4950e709c532.json";
 
