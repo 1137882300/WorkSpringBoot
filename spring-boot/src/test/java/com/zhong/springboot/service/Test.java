@@ -1,6 +1,5 @@
 package com.zhong.springboot.service;
 
-import com.zhong.springboot.service.impl.BasicServiceImpl;
 import com.zhong.springboot.utils.RetryUtil;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -31,8 +30,6 @@ public class Test {
 
         }, 2);
 
-        BasicServiceImpl basicService = new BasicServiceImpl();
-        basicService.test();
     }
 
     @org.junit.Test

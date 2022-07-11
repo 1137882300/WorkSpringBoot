@@ -1,4 +1,4 @@
-package com.zhong.springboot.oss;
+package com.zhong.springboot.parsing.oss;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;

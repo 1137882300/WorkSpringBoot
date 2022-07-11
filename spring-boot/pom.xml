@@ -18,6 +18,12 @@
         <repackage.classifier/>
     </properties>
     <dependencies>
+        <!--存储模块-->
+        <dependency>
+            <groupId>com.zhong</groupId>
+            <artifactId>mybatis-plus</artifactId>
+        </dependency>
+        <!---->
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>

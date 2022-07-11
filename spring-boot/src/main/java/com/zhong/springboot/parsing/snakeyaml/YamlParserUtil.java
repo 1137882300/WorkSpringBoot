@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.zhong.springboot.snakeyaml;
+package com.zhong.springboot.parsing.snakeyaml;
 
 import org.springframework.util.CollectionUtils;
 import org.yaml.snakeyaml.Yaml;
