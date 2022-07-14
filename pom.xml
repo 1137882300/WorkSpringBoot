@@ -24,6 +24,7 @@
     <module>handle-file</module>
     <module>mybatis-plus</module>
     <module>spring-boot</module>
+    <module>elastic-search</module>
   </modules>
 
   <properties>
@@ -50,6 +51,7 @@
     <snakeyaml.version>1.30</snakeyaml.version>
     <oss.version>3.15.0</oss.version>
     <nacos.client.version>2.1.0</nacos.client.version>
+    <es.version>7.10.1</es.version>
   </properties>
 
 
@@ -232,6 +234,34 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-logging</artifactId>
         <version>${springboot.version}</version>
+      </dependency>
+
+      <!--elastic-search-->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        <version>${springboot.version}</version>
+      </dependency>
+
+      <!-- elasticsearch -->
+      <dependency>
+        <groupId>org.elasticsearch</groupId>
+        <artifactId>elasticsearch</artifactId>
+        <version>${es.version}</version>
+      </dependency>
+
+      <!-- elasticsearch-rest-client -->
+      <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-client</artifactId>
+        <version>${es.version}</version>
+      </dependency>
+
+      <!-- elasticsearch-rest-high-level-client -->
+      <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        <version>${es.version}</version>
       </dependency>
 
 
