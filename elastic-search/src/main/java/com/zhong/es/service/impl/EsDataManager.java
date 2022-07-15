@@ -33,6 +33,7 @@ public class EsDataManager implements ESWriteService {
         if (alias != null) {
             request.alias(new Alias(alias));
         }
+        request.mapping(builder);
         try {
             CreateIndexResponse createIndexResponse = restHighLevelClient.indices().create(request, RequestOptions.DEFAULT);
             boolean acknowledged = createIndexResponse.isAcknowledged();
@@ -45,7 +46,7 @@ public class EsDataManager implements ESWriteService {
         } catch (Throwable t) {
             log.error("exception:", t);
         }
-        return false;
+        return Boolean.FALSE;
     }
 
     @Override
