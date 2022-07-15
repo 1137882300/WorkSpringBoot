@@ -1,10 +1,13 @@
 package com.zhong.es.model;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
  * @date 2022/7/14 20:17
  */
+@Data
 public class EsBaseDTO implements Serializable {
 
     /**
