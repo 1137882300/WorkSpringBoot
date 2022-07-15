@@ -33,7 +33,9 @@ public class EsDataManager implements ESWriteService {
         if (alias != null) {
             request.alias(new Alias(alias));
         }
-        request.mapping(builder);
+        if (builder != null) {
+            request.mapping(builder);
+        }
         try {
             CreateIndexResponse createIndexResponse = restHighLevelClient.indices().create(request, RequestOptions.DEFAULT);
             boolean acknowledged = createIndexResponse.isAcknowledged();
