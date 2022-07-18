@@ -21,10 +21,11 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>handle-file</module>
-    <module>mybatis-plus</module>
-    <module>spring-boot</module>
-    <module>elastic-search</module>
+      <module>handle-file</module>
+      <module>mybatis-plus</module>
+      <module>spring-boot</module>
+      <module>elastic-search</module>
+      <module>redis-cache</module>
   </modules>
 
   <properties>
@@ -263,7 +264,18 @@
         <artifactId>elasticsearch-rest-high-level-client</artifactId>
         <version>${es.version}</version>
       </dependency>
-
+      <!--springboot cache-->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-cache</artifactId>
+        <version>${springboot.version}</version>
+      </dependency>
+      <!--redis-->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-redis</artifactId>
+        <version>${springboot.version}</version>
+      </dependency>
 
     </dependencies>
   </dependencyManagement>
