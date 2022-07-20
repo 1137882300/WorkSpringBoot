@@ -1,12 +1,13 @@
-package com.zhong.springboot;
+package com.zhong;
 
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.context.annotation.ComponentScan;
+
 @Slf4j
-@EnableCaching
+@ComponentScan(basePackages = {"com.zhong"})
 @MapperScan("com.zhong.repository.mapper")
 @SpringBootApplication
 public class Application {

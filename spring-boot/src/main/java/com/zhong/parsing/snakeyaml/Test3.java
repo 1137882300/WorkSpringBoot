@@ -1,4 +1,4 @@
-package com.zhong.springboot.parsing.snakeyaml;
+package com.zhong.parsing.snakeyaml;
 
 import com.alibaba.nacos.api.NacosFactory;
 import com.alibaba.nacos.api.PropertyKeyConst;

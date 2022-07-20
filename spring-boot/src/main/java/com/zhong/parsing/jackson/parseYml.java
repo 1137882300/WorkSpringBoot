@@ -1,9 +1,9 @@
-package com.zhong.springboot.parsing.jackson;
+package com.zhong.parsing.jackson;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import com.zhong.springboot.parsing.snakeyaml.YmlConfig;
+import com.zhong.parsing.snakeyaml.YmlConfig;
 
 import java.io.IOException;
 import java.io.InputStream;

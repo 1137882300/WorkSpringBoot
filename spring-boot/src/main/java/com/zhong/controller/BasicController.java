@@ -1,4 +1,4 @@
-package com.zhong.springboot.controller;
+package com.zhong.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;

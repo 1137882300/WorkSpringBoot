@@ -1,6 +1,6 @@
-package com.zhong.springboot.service;
+package com.zhong.service;
 
-import com.zhong.springboot.utils.RetryUtil;
+import com.zhong.utils.RetryUtil;
 import org.springframework.boot.test.context.SpringBootTest;
 
 /**

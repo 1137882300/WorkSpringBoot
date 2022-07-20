@@ -1,4 +1,4 @@
-package com.zhong.springboot.parsing.snakeyaml;
+package com.zhong.parsing.snakeyaml;
 
 /**
  * Created by cc on 2022/6/19

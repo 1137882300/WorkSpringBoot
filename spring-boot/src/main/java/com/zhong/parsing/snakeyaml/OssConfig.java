@@ -1,4 +1,4 @@
-package com.zhong.springboot.parsing.snakeyaml;
+package com.zhong.parsing.snakeyaml;
 
 import lombok.Data;
 
