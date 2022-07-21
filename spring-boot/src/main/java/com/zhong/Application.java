@@ -1,15 +1,15 @@
 package com.zhong;
 
 import lombok.extern.slf4j.Slf4j;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @Slf4j
-@ComponentScan(basePackages = {"com.zhong"})
-@MapperScan("com.zhong.repository.mapper")
-@SpringBootApplication
+//@MapperScan("com.zhong.repository.mapper")
+//忽略mysql ,exclude={DataSourceAutoConfiguration.class}
+//@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class Application {
 
     public static void main(String[] args) {
