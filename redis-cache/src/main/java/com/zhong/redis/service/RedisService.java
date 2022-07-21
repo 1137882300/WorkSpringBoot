@@ -8,8 +8,6 @@ import java.util.concurrent.TimeUnit;
  */
 public interface RedisService {
 
-    int removePrefix(String prefix);
-
     int remove(String... keys);
 
     boolean remove(String key);
