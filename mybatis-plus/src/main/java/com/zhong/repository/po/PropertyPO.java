@@ -14,10 +14,10 @@ import java.io.Serializable;
  * </p>
  *
  * @author xiao-pang
- * @since 2022-07-11
+ * @since 2022-07-22
  */
 @TableName("t_property")
-public class Property implements Serializable {
+public class PropertyPO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -91,12 +91,30 @@ public class Property implements Serializable {
     @TableField("status")
     private Long status;
 
+    /**
+     * 多个类型按照英文逗号隔开
+     */
+    @TableField("property_types")
+    private String propertyTypes;
+
+    /**
+     * 是否关联一级类目
+     */
+    @TableField("relation_category")
+    private Integer relationCategory;
+
+    /**
+     * 属性编码，按照英文生成，转化小写，空格下划线替换
+     */
+    @TableField("property_code")
+    private String propertyCode;
+
 
     public Long getPropertyId() {
         return propertyId;
     }
 
-    public Property setPropertyId(Long propertyId) {
+    public PropertyPO setPropertyId(Long propertyId) {
         this.propertyId = propertyId;
         return this;
     }
@@ -105,7 +123,7 @@ public class Property implements Serializable {
         return outerPropertyId;
     }
 
-    public Property setOuterPropertyId(String outerPropertyId) {
+    public PropertyPO setOuterPropertyId(String outerPropertyId) {
         this.outerPropertyId = outerPropertyId;
         return this;
     }
@@ -114,7 +132,7 @@ public class Property implements Serializable {
         return propertyType;
     }
 
-    public Property setPropertyType(Integer propertyType) {
+    public PropertyPO setPropertyType(Integer propertyType) {
         this.propertyType = propertyType;
         return this;
     }
@@ -123,7 +141,7 @@ public class Property implements Serializable {
         return platform;
     }
 
-    public Property setPlatform(String platform) {
+    public PropertyPO setPlatform(String platform) {
         this.platform = platform;
         return this;
     }
@@ -132,7 +150,7 @@ public class Property implements Serializable {
         return creatorId;
     }
 
-    public Property setCreatorId(Long creatorId) {
+    public PropertyPO setCreatorId(Long creatorId) {
         this.creatorId = creatorId;
         return this;
     }
@@ -141,7 +159,7 @@ public class Property implements Serializable {
         return modifiedId;
     }
 
-    public Property setModifiedId(Long modifiedId) {
+    public PropertyPO setModifiedId(Long modifiedId) {
         this.modifiedId = modifiedId;
         return this;
     }
@@ -150,7 +168,7 @@ public class Property implements Serializable {
         return showType;
     }
 
-    public Property setShowType(Boolean showType) {
+    public PropertyPO setShowType(Boolean showType) {
         this.showType = showType;
         return this;
     }
@@ -159,7 +177,7 @@ public class Property implements Serializable {
         return isExtendable;
     }
 
-    public Property setIsExtendable(Boolean isExtendable) {
+    public PropertyPO setIsExtendable(Boolean isExtendable) {
         this.isExtendable = isExtendable;
         return this;
     }
@@ -168,7 +186,7 @@ public class Property implements Serializable {
         return isSearchable;
     }
 
-    public Property setIsSearchable(Boolean isSearchable) {
+    public PropertyPO setIsSearchable(Boolean isSearchable) {
         this.isSearchable = isSearchable;
         return this;
     }
@@ -177,7 +195,7 @@ public class Property implements Serializable {
         return isEnable;
     }
 
-    public Property setIsEnable(Boolean isEnable) {
+    public PropertyPO setIsEnable(Boolean isEnable) {
         this.isEnable = isEnable;
         return this;
     }
@@ -186,7 +204,7 @@ public class Property implements Serializable {
         return isDeleted;
     }
 
-    public Property setIsDeleted(Boolean isDeleted) {
+    public PropertyPO setIsDeleted(Boolean isDeleted) {
         this.isDeleted = isDeleted;
         return this;
     }
@@ -195,7 +213,7 @@ public class Property implements Serializable {
         return createTime;
     }
 
-    public Property setCreateTime(Long createTime) {
+    public PropertyPO setCreateTime(Long createTime) {
         this.createTime = createTime;
         return this;
     }
@@ -204,7 +222,7 @@ public class Property implements Serializable {
         return updateTime;
     }
 
-    public Property setUpdateTime(Long updateTime) {
+    public PropertyPO setUpdateTime(Long updateTime) {
         this.updateTime = updateTime;
         return this;
     }
@@ -213,7 +231,7 @@ public class Property implements Serializable {
         return features;
     }
 
-    public Property setFeatures(String features) {
+    public PropertyPO setFeatures(String features) {
         this.features = features;
         return this;
     }
@@ -222,7 +240,7 @@ public class Property implements Serializable {
         return version;
     }
 
-    public Property setVersion(Long version) {
+    public PropertyPO setVersion(Long version) {
         this.version = version;
         return this;
     }
@@ -231,8 +249,35 @@ public class Property implements Serializable {
         return status;
     }
 
-    public Property setStatus(Long status) {
+    public PropertyPO setStatus(Long status) {
         this.status = status;
+        return this;
+    }
+
+    public String getPropertyTypes() {
+        return propertyTypes;
+    }
+
+    public PropertyPO setPropertyTypes(String propertyTypes) {
+        this.propertyTypes = propertyTypes;
+        return this;
+    }
+
+    public Integer getRelationCategory() {
+        return relationCategory;
+    }
+
+    public PropertyPO setRelationCategory(Integer relationCategory) {
+        this.relationCategory = relationCategory;
+        return this;
+    }
+
+    public String getPropertyCode() {
+        return propertyCode;
+    }
+
+    public PropertyPO setPropertyCode(String propertyCode) {
+        this.propertyCode = propertyCode;
         return this;
     }
 
@@ -268,9 +313,15 @@ public class Property implements Serializable {
 
     public static final String STATUS = "status";
 
+    public static final String PROPERTY_TYPES = "property_types";
+
+    public static final String RELATION_CATEGORY = "relation_category";
+
+    public static final String PROPERTY_CODE = "property_code";
+
     @Override
     public String toString() {
-        return "Property{" +
+        return "PropertyPO{" +
         "propertyId=" + propertyId +
         ", outerPropertyId=" + outerPropertyId +
         ", propertyType=" + propertyType +
@@ -287,6 +338,9 @@ public class Property implements Serializable {
         ", features=" + features +
         ", version=" + version +
         ", status=" + status +
+        ", propertyTypes=" + propertyTypes +
+        ", relationCategory=" + relationCategory +
+        ", propertyCode=" + propertyCode +
         "}";
     }
 }

@@ -1,6 +1,6 @@
 package com.zhong.repository.service;
 
-import com.zhong.repository.po.Property;
+import com.zhong.repository.po.PropertyPO;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author xiao-pang
- * @since 2022-07-11
+ * @since 2022-07-22
  */
-public interface PropertyRpService extends IService<Property> {
+public interface PropertyRpService extends IService<PropertyPO> {
 
 }

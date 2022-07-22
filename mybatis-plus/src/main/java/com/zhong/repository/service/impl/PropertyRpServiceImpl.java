@@ -1,6 +1,6 @@
 package com.zhong.repository.service.impl;
 
-import com.zhong.repository.po.Property;
+import com.zhong.repository.po.PropertyPO;
 import com.zhong.repository.mapper.PropertyMapper;
 import com.zhong.repository.service.PropertyRpService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -12,9 +12,9 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author xiao-pang
- * @since 2022-07-11
+ * @since 2022-07-22
  */
 @Service
-public class PropertyRpServiceImpl extends ServiceImpl<PropertyMapper, Property> implements PropertyRpService {
+public class PropertyRpServiceImpl extends ServiceImpl<PropertyMapper, PropertyPO> implements PropertyRpService {
 
 }

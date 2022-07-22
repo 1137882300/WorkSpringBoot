@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
 import com.baomidou.mybatisplus.generator.config.OutputFile;
+import com.baomidou.mybatisplus.generator.config.TemplateType;
 import com.baomidou.mybatisplus.generator.engine.VelocityTemplateEngine;
 import com.baomidou.mybatisplus.generator.fill.Column;
 import com.baomidou.mybatisplus.generator.fill.Property;
@@ -19,6 +20,7 @@ public class generator {
     static final String userName = "root";
     static final String password = "root";
 
+
     public static void main(String[] args) {
         String path = System.getProperty("user.dir") + "/mybatis-plus/src/main/java/";
         String xmlPath = System.getProperty("user.dir") + "/mybatis-plus/src/main/resources/mapper";
@@ -26,15 +28,15 @@ public class generator {
         FastAutoGenerator.create(URL, userName, password)
                 //全局配置
                 .globalConfig(x -> x.author("xiao-pang").outputDir(path).disableOpenDir().fileOverride())
+                .templateConfig(x -> x.disable(TemplateType.CONTROLLER))
                 //策略配置：哪些表
                 .strategyConfig(x -> {
                     x.addInclude("t_property").addTablePrefix("t_")
                             .serviceBuilder().formatServiceFileName("%sRpService").formatServiceImplFileName("%sRpServiceImpl")
-                            .entityBuilder().idType(IdType.INPUT).versionColumnName("version")
+                            .entityBuilder().formatFileName("%sPO").idType(IdType.INPUT).versionColumnName("version")
                             .enableColumnConstant().enableChainModel().enableTableFieldAnnotation()
                             .addTableFills(new Column("create_time", FieldFill.INSERT))
                             .addTableFills(new Property("updateTime", FieldFill.INSERT_UPDATE))
-
                     ;
                 })
 
