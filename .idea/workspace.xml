@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25881523-4167-4734-8d49-60cbbbe3fbad" name="Default Changelist" comment="README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="25881523-4167-4734-8d49-60cbbbe3fbad" name="Default Changelist" comment="es">
+      <change afterPath="$PROJECT_DIR$/elastic-search/src/main/java/com/zhong/es/config/ElasticSearchConfigV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,22 +44,30 @@
     </option>
   </component>
   <component name="ProjectId" id="29osmvbi8kHCgc1F6uYGbXJsGKB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/DevelopSoftware/WorkSpace/WorkSpringBoot",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DevelopSoftware/WorkSpace/basedata-service&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;002507a4c42423b76548c790add42403&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopSoftware\WorkSpace\WorkSpringBoot\elastic-search\src\main\java\com\zhong\es\test" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.WriteExcel.simpleWrite">
     <configuration name="ReadExcel.simpleRead1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="handle-file" />
@@ -173,7 +179,10 @@
       <updated>1653790937616</updated>
       <workItem from="1653790946128" duration="15778000" />
       <workItem from="1653868940255" duration="224000" />
-      <workItem from="1664853783718" duration="1122000" />
+      <workItem from="1664853783718" duration="1868000" />
+      <workItem from="1665022228845" duration="12000" />
+      <workItem from="1665023855924" duration="723000" />
+      <workItem from="1666404505377" duration="2934000" />
     </task>
     <task id="LOCAL-00001" summary="README.md">
       <created>1653869006700</created>
@@ -182,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653869006700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="es">
+      <created>1664857801618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664857801619</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +217,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+    <MESSAGE value="es" />
+    <option name="LAST_COMMIT_MESSAGE" value="es" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
