@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25881523-4167-4734-8d49-60cbbbe3fbad" name="Default Changelist" comment="es">
-      <change afterPath="$PROJECT_DIR$/elastic-search/src/main/java/com/zhong/es/config/ElasticSearchConfigV2.java" afterDir="false" />
+    <list default="true" id="25881523-4167-4734-8d49-60cbbbe3fbad" name="Default Changelist" comment="README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/handle-file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +43,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\DevelopSoftware\Maven\maven-repository" />
-        <option name="mavenHome" value="G:/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="G:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.9.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.9.0\conf\settings-2.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -183,6 +188,8 @@
       <workItem from="1665022228845" duration="12000" />
       <workItem from="1665023855924" duration="723000" />
       <workItem from="1666404505377" duration="2934000" />
+      <workItem from="1680228506902" duration="132000" />
+      <workItem from="1680228666789" duration="5179000" />
     </task>
     <task id="LOCAL-00001" summary="README.md">
       <created>1653869006700</created>
@@ -226,7 +233,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy</url>
           <line>31</line>
-          <properties>
+          <properties method="generate">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
