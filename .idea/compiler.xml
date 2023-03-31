@@ -6,11 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot" />
+        <module name="elastic-search" />
+        <module name="mybatis-plus" />
         <module name="handle-file" />
+        <module name="redis-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="do-file" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="elastic-search" options="-parameters" />
+      <module name="handle-file" options="-parameters" />
+      <module name="mybatis-plus" options="-parameters" />
+      <module name="redis-cache" options="-parameters" />
+      <module name="spring-boot" options="-parameters" />
+    </option>
   </component>
 </project>

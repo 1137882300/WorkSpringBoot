@@ -1,0 +1,14 @@
+server:
+  port: 9090
+
+
+
+es:
+  node:
+    host: localhost
+    port: 49153
+    scheme: http
+    username:
+    password:
+  config:
+    retryOnConflict: 3
