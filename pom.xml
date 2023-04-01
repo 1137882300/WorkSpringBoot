@@ -43,7 +43,7 @@
     <moneta.verison>1.4.2</moneta.verison>
     <collections4.version>4.4</collections4.version>
     <lang3.version>3.10</lang3.version>
-    <springboot.version>3.0.4</springboot.version>
+    <springboot.version>2.3.2.RELEASE</springboot.version>
     <logstash-logback-encoder.version>6.4</logstash-logback-encoder.version>
     <druid.version>1.2.16</druid.version>
     <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
@@ -77,6 +77,12 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-test</artifactId>
+        <version>${springboot.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
         <version>${springboot.version}</version>
       </dependency>
 
@@ -144,6 +150,17 @@
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>${mysql.connector.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-extension</artifactId>
+        <version>${mybatis-plus.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.baomidou</groupId>
+        <artifactId>mybatis-plus-generator</artifactId>
+        <version>${mybatis-plus.version}</version>
       </dependency>
       <!--数据库相关end-->
 
@@ -248,12 +265,7 @@
         <version>${nacos.client.version}</version>
       </dependency>
 
-      <!--yaml-->
-      <dependency>
-        <groupId>org.yaml</groupId>
-        <artifactId>snakeyaml</artifactId>
-        <version>${snakeyaml.version}</version>
-      </dependency>
+
 
       <!--excel-->
       <dependency>
@@ -324,6 +336,12 @@
       <!--        <version>${mybatis-plus.version}</version>-->
       <!--      </dependency>-->
 
+      <!--yaml-->
+<!--      <dependency>-->
+<!--        <groupId>org.yaml</groupId>-->
+<!--        <artifactId>snakeyaml</artifactId>-->
+<!--        <version>${snakeyaml.version}</version>-->
+<!--      </dependency>-->
 
     </dependencies>
   </dependencyManagement>
