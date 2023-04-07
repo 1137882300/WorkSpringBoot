@@ -58,6 +58,7 @@
     <mysql.connector.version>8.0.32</mysql.connector.version>
     <slf4j.version>1.7.25</slf4j.version>
     <nacos.version>2021.1</nacos.version>
+    <contiperf.version>2.3.4</contiperf.version>
 
   </properties>
 
@@ -265,7 +266,12 @@
         <version>${nacos.client.version}</version>
       </dependency>
 
-
+      <!--测试包-压测-->
+      <dependency>
+        <groupId>org.databene</groupId>
+        <artifactId>contiperf</artifactId>
+        <version>${contiperf.version}</version>
+      </dependency>
 
       <!--excel-->
       <dependency>
