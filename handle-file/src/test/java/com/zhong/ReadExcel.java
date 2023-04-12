@@ -35,7 +35,7 @@ public class ReadExcel {
                 System.out.println("读取到一条数据{}" + demoData);
                 log.info("读取到一条数据{}", JSON.toJSONString(demoData));
             }
-        })).sheet().doRead();
+        })).sheet().headRowNumber(1).doRead();
     }
 
     /**

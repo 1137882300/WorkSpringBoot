@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="压测包">
+      <change afterPath="$PROJECT_DIR$/handle-file/src/main/java/com/zhong/entity/ExcelTestEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/src/test/java/com/zhong/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/handle-file/src/test/java/com/zhong/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/src/test/java/com/zhong/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/handle-file/src/test/java/com/zhong/ReadExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,28 @@
     &quot;spring.configuration.checksum&quot;: &quot;002507a4c42423b76548c790add42403&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhong.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.simpleRead1">
+    <configuration name="AppTest.simpleRead1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handle-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhong" />
+      <option name="MAIN_CLASS_NAME" value="com.zhong.AppTest" />
+      <option name="METHOD_NAME" value="simpleRead1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhong.Application" />
@@ -55,6 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.simpleRead1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +95,9 @@
       <updated>1680846848080</updated>
       <workItem from="1680846851105" duration="1570000" />
       <workItem from="1680854683504" duration="625000" />
-      <workItem from="1681105748433" duration="598000" />
+      <workItem from="1681105748433" duration="1709000" />
+      <workItem from="1681296134667" duration="1428000" />
+      <workItem from="1681298186920" duration="2136000" />
     </task>
     <task id="LOCAL-00001" summary="压测包">
       <created>1680848599462</created>
@@ -75,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680848599462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="压测包">
+      <created>1681107369209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681107369209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
