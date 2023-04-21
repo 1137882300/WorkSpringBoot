@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="压测包">
-      <change afterPath="$PROJECT_DIR$/handle-file/src/main/java/com/zhong/entity/ExcelTestEntity.java" afterDir="false" />
+    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-4-12">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handle-file/src/test/java/com/zhong/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/handle-file/src/test/java/com/zhong/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handle-file/src/test/java/com/zhong/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/handle-file/src/test/java/com/zhong/ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/test-classes/com/zhong/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/handle-file/target/test-classes/com/zhong/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/test-classes/com/zhong/ReadExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/handle-file/target/test-classes/com/zhong/ReadExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;002507a4c42423b76548c790add42403&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "5a957e2cf83011ffe6148618c935b731"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zhong.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.simpleRead1">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="AppTest.simpleRead1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="handle-file" />
       <extension name="coverage">
@@ -97,7 +100,9 @@
       <workItem from="1680854683504" duration="625000" />
       <workItem from="1681105748433" duration="1709000" />
       <workItem from="1681296134667" duration="1428000" />
-      <workItem from="1681298186920" duration="2136000" />
+      <workItem from="1681298186920" duration="2274000" />
+      <workItem from="1681300506270" duration="1825000" />
+      <workItem from="1682067253569" duration="4026000" />
     </task>
     <task id="LOCAL-00001" summary="压测包">
       <created>1680848599462</created>
@@ -113,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681107369209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2023-4-12">
+      <created>1681300435715</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681300435715</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="压测包" />
-    <option name="LAST_COMMIT_MESSAGE" value="压测包" />
+    <MESSAGE value="2023-4-12" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-4-12" />
   </component>
 </project>
