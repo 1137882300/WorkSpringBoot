@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-5-10">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/swagger/config/BaseSwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/swagger/config/SwaggerConfiguration.java" afterDir="false" />
+    <list default="true" id="25881523-4167-4734-8d49-60cbbbe3fbad" name="Default Changelist" comment="2023-4-1">
+      <change afterPath="$PROJECT_DIR$/server-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-starter/src/main/java/com/zhong/Application.java" afterDir="false" />
+    </list>
+    <list id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,24 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/WorkSpace/WorkSpringBoot",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "3bc890fc8be61cdf0940482d8463298f"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/WorkSpace/WorkSpringBoot&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3bc890fc8be61cdf0940482d8463298f&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\WorkSpace\WorkSpringBoot" />
@@ -76,7 +76,7 @@
       <recent name="com.zhong.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="BasicController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhong.controller.BasicController" />
       <module name="spring-boot" />
@@ -93,14 +93,24 @@
     <configuration name="generated-requests | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="#10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="generated-requests | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="#8" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhong.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot" />
@@ -111,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Application.BasicController" />
         <item itemvalue="HTTP Request.generated-requests | #10" />
         <item itemvalue="HTTP Request.generated-requests | #9" />
         <item itemvalue="HTTP Request.generated-requests | #8" />
-        <item itemvalue="HTTP Request.generated-requests | #7" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +137,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680846848080</updated>
+      <workItem from="1653790946128" duration="15778000" />
+      <workItem from="1653868940255" duration="224000" />
+      <workItem from="1664853783718" duration="1868000" />
+      <workItem from="1665022228845" duration="12000" />
+      <workItem from="1665023855924" duration="723000" />
+      <workItem from="1666404505377" duration="2934000" />
+      <workItem from="1680228506902" duration="132000" />
+      <workItem from="1680228666789" duration="5179000" />
+      <workItem from="1666404505377" duration="3543000" />
+      <workItem from="1666489372255" duration="1003000" />
+      <workItem from="1667109762785" duration="600000" />
+      <workItem from="1667309413366" duration="12000" />
+      <workItem from="1672982305306" duration="612000" />
+      <workItem from="1676169702029" duration="1286000" />
+      <workItem from="1676776841604" duration="3273000" />
+      <workItem from="1677499991459" duration="1179000" />
+      <workItem from="1680320943452" duration="442000" />
+      <workItem from="1680322534038" duration="2157000" />
+      <workItem from="1680324719193" duration="310000" />
+      <workItem from="1680343927285" duration="24000" />
+      <workItem from="1680662582549" duration="596000" />
+      <workItem from="1682737701380" duration="10000" />
       <workItem from="1680846851105" duration="1570000" />
       <workItem from="1680854683504" duration="625000" />
       <workItem from="1681105748433" duration="1709000" />
@@ -159,12 +191,12 @@
       <option name="project" value="LOCAL" />
       <updated>1681300435715</updated>
     </task>
-    <task id="LOCAL-00004" summary="2023-4-21">
-      <created>1682071359481</created>
+    <task id="LOCAL-00004" summary="2023-4-1">
+      <created>1680324837597</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1682071359481</updated>
+      <updated>1680324837597</updated>
     </task>
     <task id="LOCAL-00005" summary="2023-5-10">
       <created>1683698413923</created>
@@ -180,7 +212,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683707980664</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +234,13 @@
     <MESSAGE value="2023-4-12" />
     <MESSAGE value="2023-4-21" />
     <MESSAGE value="2023-5-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-5-10" />
+    <MESSAGE value="README.md" />
+    <MESSAGE value="es" />
+    <MESSAGE value="2023-4-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-4-1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
