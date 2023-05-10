@@ -10,6 +10,7 @@
         <module name="spring-boot" />
         <module name="elastic-search" />
         <module name="mybatis-plus" />
+        <module name="web-base" />
         <module name="handle-file" />
         <module name="redis-cache" />
       </profile>

@@ -5,21 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-5-10">
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/log-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/swagger/config/BaseSwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/swagger/config/SwaggerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/controller/BasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/controller/BasicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/scheduled/FixedScheduled.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/scheduled/FixedScheduled.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +58,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/WorkSpace/WorkSpringBoot/spring-boot/src/main/resources",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "F:/WorkSpace/WorkSpringBoot",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "3bc890fc8be61cdf0940482d8463298f"
@@ -61,9 +67,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\WorkSpringBoot" />
       <recent name="F:\WorkSpace\WorkSpringBoot\spring-boot\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhong.web.base.swagger.config" />
+      <recent name="com.zhong.web.base.swagger" />
       <recent name="com.zhong.entity" />
     </key>
   </component>
@@ -127,7 +136,7 @@
       <workItem from="1682067253569" duration="4108000" />
       <workItem from="1682212987673" duration="1453000" />
       <workItem from="1683698321113" duration="513000" />
-      <workItem from="1683698877465" duration="4881000" />
+      <workItem from="1683698877465" duration="9990000" />
     </task>
     <task id="LOCAL-00001" summary="压测包">
       <created>1680848599462</created>
@@ -164,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683698413923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2023-5-10">
+      <created>1683707980664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683707980664</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

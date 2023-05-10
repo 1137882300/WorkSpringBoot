@@ -26,6 +26,7 @@
       <module>spring-boot</module>
       <module>elastic-search</module>
       <module>redis-cache</module>
+      <module>web-base</module>
   </modules>
 
   <properties>
