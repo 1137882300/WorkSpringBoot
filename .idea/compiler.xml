@@ -20,7 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="WorkSpringBoot" options="-parameters" />
+      <module name="WorkSpringBoot" options="" />
       <module name="elastic-search" options="-parameters" />
       <module name="handle-file" options="-parameters" />
       <module name="mybatis-plus" options="-parameters" />
