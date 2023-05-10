@@ -3,13 +3,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.3.12.RELEASE</version>
-    <!-- 从存储库查找父节点 -->
-    <relativePath/>
-  </parent>
+<!--  <parent>-->
+<!--    <groupId>org.springframework.boot</groupId>-->
+<!--    <artifactId>spring-boot-starter-parent</artifactId>-->
+<!--    <version>2.3.2.RELEASE</version>-->
+<!--    &lt;!&ndash; 从存储库查找父节点 &ndash;&gt;-->
+<!--    <relativePath/>-->
+<!--  </parent>-->
 
   <groupId>com.zhong</groupId>
   <artifactId>WorkSpringBoot</artifactId>
@@ -43,7 +43,7 @@
     <moneta.verison>1.4.2</moneta.verison>
     <collections4.version>4.4</collections4.version>
     <lang3.version>3.10</lang3.version>
-    <springboot.version>2.3.12.RELEASE</springboot.version>
+    <springboot.version>2.3.2.RELEASE</springboot.version>
     <logstash-logback-encoder.version>6.4</logstash-logback-encoder.version>
     <druid.version>1.2.16</druid.version>
     <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
@@ -66,6 +66,15 @@
   <!--依赖管理-->
   <dependencyManagement>
     <dependencies>
+
+      <!-- 统一依赖管理 -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${springboot.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
 
       <!--springboot-web 一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一 -->
       <dependency>

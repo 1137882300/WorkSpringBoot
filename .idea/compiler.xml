@@ -21,11 +21,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="WorkSpringBoot" options="" />
-      <module name="elastic-search" options="-parameters" />
-      <module name="handle-file" options="-parameters" />
-      <module name="mybatis-plus" options="-parameters" />
-      <module name="redis-cache" options="-parameters" />
-      <module name="spring-boot" options="-parameters" />
+      <module name="elastic-search" options="" />
+      <module name="handle-file" options="" />
+      <module name="mybatis-plus" options="" />
+      <module name="redis-cache" options="" />
+      <module name="spring-boot" options="" />
     </option>
   </component>
 </project>

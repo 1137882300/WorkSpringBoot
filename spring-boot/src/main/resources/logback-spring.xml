@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <contextName>logback</contextName>
+
+    <include resource="log-config.xml"/>
+
+    <!-- IDE环境 -->
+    <springProfile name="local">
+        <logger name="gov.hztour.web.dao" level="debug"/>
+    </springProfile>
+
+    <!-- 测试环境 -->
+    <springProfile name="dev">
+        <logger name="gov.hztour.web.dao" level="debug"/>
+    </springProfile>
+
+
+</configuration>
