@@ -1,5 +1,6 @@
 package com.zhong.web.base.swagger.config;
 
+import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
@@ -37,7 +38,7 @@ public class SwaggerConfiguration extends BaseSwaggerConfig {
 
     @Override
     protected String getTitle() {
-        return "发现杭州项目文档";
+        return "xxx项目文档";
     }
 
     @Override

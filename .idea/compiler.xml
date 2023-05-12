@@ -7,8 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot" />
         <module name="elastic-search" />
+        <module name="spring-boot" />
+        <module name="server-starter" />
         <module name="mybatis-plus" />
         <module name="web-base" />
         <module name="handle-file" />

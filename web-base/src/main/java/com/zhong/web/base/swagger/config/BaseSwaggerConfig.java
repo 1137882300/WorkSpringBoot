@@ -16,7 +16,8 @@ import java.util.List;
 /**
  * Swagger基类配置
  *
- * @see <a>https://doc.xiaominfo.com/guide/#%E7%AE%80%E4%BB%8B</a>
+ * @link <a><a href="https://doc.xiaominfo.com/guide/#%E7%AE%80%E4%BB%8B">...</a></a>
+ * 地址：<a href="http://localhost:9090/doc.html">...</a>
  */
 public abstract class BaseSwaggerConfig {
 
@@ -35,20 +36,20 @@ public abstract class BaseSwaggerConfig {
                 .apis(RequestHandlerSelectors.basePackage(getPkgName()))
                 .paths(PathSelectors.any())
                 .build()
-                .globalRequestParameters(pars);
+                .globalRequestParameters(pars)
+                .groupName("group-name")
+                ;
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title(getTitle())
-                .description("编程喵是一个 Spring Boot+Vue 的前后端分离项目")
-                .termsOfServiceUrl("termsOfServiceUrl")
-                .contact(new Contact("沉默王二", "https://codingmore.top","www.qing_gee@163.com"))
-                .version("v1.0")
+                .description("简介")
+                .termsOfServiceUrl("服务Url")
+                .contact(new Contact("作者", "url", "email"))
+                .version("版本")
                 .build();
     }
-
-
 
 
     /**
