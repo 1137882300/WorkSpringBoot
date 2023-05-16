@@ -2,3 +2,13 @@
 /mybatis-plus/target/
 /spring-boot/target/
 target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+*.jar
+*.war
+*.rar
