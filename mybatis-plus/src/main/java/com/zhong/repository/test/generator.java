@@ -44,7 +44,7 @@ public class generator {
                 .packageConfig(x -> x.parent("com.zhong.repository").entity("po").service("service")
                         .serviceImpl("service.impl").mapper("mapper").xml("mapper.xml")
                         .pathInfo(new HashMap<OutputFile, String>() {{
-                            put(OutputFile.mapperXml, xmlPath);
+                            put(OutputFile.xml, xmlPath);
                         }}))
 
                 //模板引擎

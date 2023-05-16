@@ -4,15 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-5-10">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-5-12&#10;Swagger">
+      <change afterPath="$PROJECT_DIR$/server-starter/src/test/java/com/zhong/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-starter/src/test/java/com/zhong/CommonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/BaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/HandlerHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/impl/HandlerOneImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/impl/HandlerTwoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/controller/BasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/controller/BasicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/swagger/config/BaseSwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/swagger/config/BaseSwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/swagger/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/swagger/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/classes/com/zhong/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/classes/com/zhong/converter/CustomListConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/classes/com/zhong/converter/CustomMapConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/classes/com/zhong/dao/DemoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/classes/com/zhong/entity/ExcelEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/classes/com/zhong/listener/ExcelReadListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/test-classes/com/zhong/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/test-classes/com/zhong/ReadExcel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/test-classes/com/zhong/ReadExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle-file/target/test-classes/com/zhong/WriteExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/test/generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/test/generator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,7 +80,8 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fbe370a6deb6a658b408d61a3a895acb&quot;
+    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cef0751ce21298b407a04eb3b7bdaf64&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -74,13 +89,17 @@
       <recent name="F:\WorkSpace\WorkSpringBoot" />
       <recent name="F:\WorkSpace\WorkSpringBoot\spring-boot\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhong" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhong.handler.impl" />
       <recent name="com.zhong.web.base.swagger.config" />
       <recent name="com.zhong.web.base.swagger" />
       <recent name="com.zhong.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
+  <component name="RunManager" selected="JUnit.CommonTest.test">
     <configuration name="BasicController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhong.controller.BasicController" />
       <module name="spring-boot" />
@@ -97,11 +116,24 @@
     <configuration name="generated-requests | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="#10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="#8" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="CommonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhong" />
+      <option name="MAIN_CLASS_NAME" value="com.zhong.CommonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="server-starter" />
@@ -125,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommonTest.test" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Application.BasicController" />
         <item itemvalue="HTTP Request.generated-requests | #10" />
         <item itemvalue="HTTP Request.generated-requests | #9" />
-        <item itemvalue="HTTP Request.generated-requests | #8" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +184,9 @@
       <workItem from="1683698321113" duration="513000" />
       <workItem from="1683698877465" duration="10549000" />
       <workItem from="1683769624973" duration="3868000" />
+      <workItem from="1683880793934" duration="107000" />
+      <workItem from="1684117284126" duration="2352000" />
+      <workItem from="1684200195424" duration="3661000" />
     </task>
     <task id="LOCAL-00001" summary="压测包">
       <created>1680848599462</created>
@@ -202,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683713559189</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2023-5-12&#10;Swagger">
+      <created>1683880830289</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683880830289</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +266,32 @@
     <MESSAGE value="2023-4-12" />
     <MESSAGE value="2023-4-21" />
     <MESSAGE value="2023-5-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-5-10" />
+    <MESSAGE value="2023-5-12&#10;Swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-5-12&#10;Swagger" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/HandlerHolder.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/impl/HandlerOneImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/Handler.java</url>
+          <line>12</line>
+          <properties class="com.zhong.handler.Handler" method="doHandler">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
