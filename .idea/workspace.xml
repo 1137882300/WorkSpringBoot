@@ -4,41 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-5-16">
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/BeanDefinitionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/BeanDefinitionRegistryPostProcessorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/ComponentScanDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/ConfigDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/FactoryBeanDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/ImportBeanDefinitionRegistrarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/ImportDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/ImportResourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/ImportSelectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/SpringFactoriesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/SupplierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/reality/MultiTenantDataSourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/entity/EntityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security/src/main/java/com/zhong/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security/src/test/java/com/zhong/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/config/SecurityAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/AbstractFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/AuthorizeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/DenyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/IgnoringFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/ProxyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/RegistryFilterByFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/RegistryFilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-base/src/main/java/com/zhong/web/base/filter/SecurityFilterEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-5-22&#10;define bean">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/ImportResourceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/define/bean/ImportResourceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,20 +88,7 @@
       <recent name="com.zhong.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeanDefinitionDemo">
-    <configuration name="BasicController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhong.controller.BasicController" />
-      <module name="spring-boot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhong.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="HTTP Request.generated-requests | #9">
     <configuration name="BeanDefinitionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhong.define.bean.BeanDefinitionDemo" />
       <module name="spring-boot" />
@@ -148,6 +103,9 @@
       </method>
     </configuration>
     <configuration name="generated-requests | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="#10" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CommonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -166,7 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
       <module name="server-starter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhong.Application" />
       <extension name="coverage">
@@ -179,20 +138,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhong.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.BeanDefinitionDemo" />
+      <item itemvalue="HTTP Request.generated-requests | #9" />
+      <item itemvalue="HTTP Request.generated-requests | #10" />
+      <item itemvalue="JUnit.CommonTest.test" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #9" />
+        <item itemvalue="HTTP Request.generated-requests | #10" />
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.BeanDefinitionDemo" />
         <item itemvalue="JUnit.CommonTest.test" />
-        <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Application.BasicController" />
-        <item itemvalue="HTTP Request.generated-requests | #10" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +178,7 @@
       <workItem from="1684117284126" duration="2352000" />
       <workItem from="1684200195424" duration="5628000" />
       <workItem from="1684479543019" duration="8937000" />
-      <workItem from="1684717291215" duration="6794000" />
+      <workItem from="1684717291215" duration="7042000" />
     </task>
     <task id="LOCAL-00001" summary="压测包">
       <created>1680848599462</created>
@@ -298,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684204027072</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2023-5-22&#10;define bean">
+      <created>1684725670046</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684725670046</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,31 +291,7 @@
     <MESSAGE value="2023-5-12&#10;handler模式" />
     <MESSAGE value="2023-5-16&#10;handler模式" />
     <MESSAGE value="2023-5-16" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-5-16" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/HandlerHolder.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/impl/HandlerOneImpl.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/handler/Handler.java</url>
-          <line>12</line>
-          <properties class="com.zhong.handler.Handler" method="doHandler">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="2023-5-22&#10;define bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-5-22&#10;define bean" />
   </component>
 </project>
