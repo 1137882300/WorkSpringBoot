@@ -1,5 +1,7 @@
 package com.zhong.web.base.filter;
 
+import lombok.extern.slf4j.Slf4j;
+
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
@@ -11,11 +13,13 @@ import java.io.IOException;
  * @date: 2023/5/19
  * @desc:
  */
+@Slf4j
 public class IgnoringFilter extends AbstractFilter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws ServletException, IOException {
         System.out.println("=======> IgnoringFilter doFilter");
+        log.info("=======> IgnoringFilter doFilter");
         chain.doFilter(request, response);
     }
 

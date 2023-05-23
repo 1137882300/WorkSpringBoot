@@ -1,9 +1,18 @@
 server:
-  port: 9090
+  port: 8080
 
 spring:
  application:
    name: work-spring-boot
+ main:
+   logginng:
+     type: logback
+
+logging:
+  level:
+    root: trace
+#  config: classpath:logback-spring.xml
+
 
 
 #spring:
