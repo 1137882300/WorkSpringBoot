@@ -28,6 +28,8 @@
         <module>redis-cache</module>
         <module>web-base</module>
         <module>spring-security</module>
+        <module>spring-gateway</module>
+        <module>business_technology</module>
     </modules>
 
     <properties>
@@ -83,6 +85,19 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+<!--            <dependency>-->
+<!--                <groupId>com.alibaba.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-alibaba-dependencies</artifactId>-->
+<!--                <version>2021.1</version>-->
+<!--            </dependency>-->
+
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-dependencies</artifactId>-->
+<!--                <version>2022.0.2</version>-->
+<!--            </dependency>-->
+
 
             <!--springboot-web 一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一一 -->
             <dependency>

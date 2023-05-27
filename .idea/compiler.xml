@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="elastic-search" />
+        <module name="business_technology" />
+        <module name="spring-gateway" />
         <module name="spring-boot" />
         <module name="server-starter" />
         <module name="spring-security" />
