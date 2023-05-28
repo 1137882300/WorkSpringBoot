@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25881523-4167-4734-8d49-60cbbbe3fbad" name="Default Changelist" comment="2023-5-10">
-      <change afterPath="$PROJECT_DIR$/business_technology/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/about/description.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/about/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/about/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/about/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/about/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/about/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/about/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/about/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/DelayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/HutoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/NettyHashedWheelTimerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/RabbitmqDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/RedisDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/RedissonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/RocketmqDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/ScheduledThreadPoolExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/java/com/zhong/order/cancel/TimerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_technology/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="25881523-4167-4734-8d49-60cbbbe3fbad" name="Default Changelist" comment="2023-5-27&#10;定时">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -92,7 +67,7 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "show.run.dashboard.notification": "false",
-    "spring.configuration.checksum": "b1e6c37540e1f436a8e4449963dcdb0b"
+    "spring.configuration.checksum": "0b5d7103fcf0bd1593cc423d57e307db"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -148,11 +123,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ESApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="elastic-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhong.es.ESApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhong.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DelayQueueDemo" />
       <item itemvalue="HTTP Request.generated-requests | #11" />
       <item itemvalue="HTTP Request.generated-requests | #12" />
       <item itemvalue="HTTP Request.generated-requests | #9" />
+      <item itemvalue="Spring Boot.ESApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
@@ -191,7 +182,8 @@
       <workItem from="1684717291215" duration="8571000" />
       <workItem from="1684812032174" duration="6397000" />
       <workItem from="1684910700522" duration="11000" />
-      <workItem from="1685144470317" duration="12123000" />
+      <workItem from="1685144470317" duration="12423000" />
+      <workItem from="1685245846782" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="压测包">
       <created>1680848599462</created>
@@ -221,12 +213,12 @@
       <option name="project" value="LOCAL" />
       <updated>1682071359481</updated>
     </task>
-    <task id="LOCAL-00005" summary="2023-5-10">
-      <created>1683718579174</created>
+    <task id="LOCAL-00005" summary="2023-5-27&#10;定时">
+      <created>1685167743199</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1683718579174</updated>
+      <updated>1685167743199</updated>
     </task>
     <task id="LOCAL-00006" summary="2023-5-10">
       <created>1683707980664</created>
@@ -235,7 +227,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683707980664</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +253,8 @@
     <MESSAGE value="README.md" />
     <MESSAGE value="es" />
     <MESSAGE value="2023-4-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-4-1" />
+    <MESSAGE value="2023-5-27&#10;定时" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-5-27&#10;定时" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
