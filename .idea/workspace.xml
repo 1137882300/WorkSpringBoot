@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-5-29&#10;DefaultListableBeanFactoryDemo">
-      <change afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/zhong/test/model/TestTableModel.java" afterDir="false" />
+    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-5-30&#10;自动生成代码">
+      <change afterPath="$PROJECT_DIR$/server-starter/src/main/resources/2logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/service/impl/PropertyRpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/service/impl/PropertyRpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-starter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server-starter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-starter/src/main/resources/log-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-starter/src/main/resources/log-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-starter/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-starter/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/WorkSpace/youxiake-channel-project",
+    "last_opened_file_path": "F:/WorkSpace/WorkSpringBoot/server-starter/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -72,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\WorkSpringBoot\server-starter\src\main\resources" />
       <recent name="F:\WorkSpace\WorkSpringBoot" />
       <recent name="F:\WorkSpace\WorkSpringBoot\spring-boot\src\main\resources" />
     </key>
@@ -86,7 +91,7 @@
       <recent name="com.zhong.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DelayQueueDemo">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="DelayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhong.order.cancel.DelayQueueDemo" />
       <module name="business_technology" />
@@ -148,8 +153,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DelayQueueDemo" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.DelayQueueDemo" />
         <item itemvalue="HTTP Request.generated-requests | #11" />
         <item itemvalue="HTTP Request.generated-requests | #12" />
         <item itemvalue="HTTP Request.generated-requests | #9" />
@@ -182,7 +187,8 @@
       <workItem from="1684717291215" duration="8571000" />
       <workItem from="1684812032174" duration="7987000" />
       <workItem from="1685358220994" duration="1459000" />
-      <workItem from="1685408960175" duration="4466000" />
+      <workItem from="1685408960175" duration="4503000" />
+      <workItem from="1685601745530" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="压测包">
       <created>1680848599462</created>
@@ -289,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685322820583</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2023-5-30&#10;自动生成代码">
+      <created>1685439182600</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685439182600</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +332,7 @@
     <MESSAGE value="2023-5-22&#10;define bean" />
     <MESSAGE value="2023-5-22" />
     <MESSAGE value="2023-5-29&#10;retrofit-spring-boot-starter" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-5-29&#10;retrofit-spring-boot-starter" />
+    <MESSAGE value="2023-5-30&#10;自动生成代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-5-30&#10;自动生成代码" />
   </component>
 </project>
