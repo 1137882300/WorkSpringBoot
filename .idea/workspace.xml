@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-6-2">
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/frist/config/OneDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/frist/config/TwoDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/frist/oneDao/oneMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/frist/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/frist/twoDao/twoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/second/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/second/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-6-9&#10;多数据源">
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/annotaion/DataSourceAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/aspect/DynamicDataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/datasource/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/datasource/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/datasource/DynamicDataSourceContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/enums/DataSourceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="package-info" />
         <option value="Class" />
       </list>
@@ -198,7 +198,7 @@
       <workItem from="1685601745530" duration="1069000" />
       <workItem from="1685604085852" duration="1424000" />
       <workItem from="1685674614589" duration="640000" />
-      <workItem from="1686298495206" duration="2198000" />
+      <workItem from="1686298495206" duration="4076000" />
     </task>
     <task id="LOCAL-00001" summary="压测包">
       <created>1680848599462</created>
@@ -326,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685674872436</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2023-6-9&#10;多数据源">
+      <created>1686300808885</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686300808885</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +366,7 @@
     <MESSAGE value="2023-5-30&#10;自动生成代码" />
     <MESSAGE value="2023-6-1" />
     <MESSAGE value="2023-6-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-6-2" />
+    <MESSAGE value="2023-6-9&#10;多数据源" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-6-9&#10;多数据源" />
   </component>
 </project>
