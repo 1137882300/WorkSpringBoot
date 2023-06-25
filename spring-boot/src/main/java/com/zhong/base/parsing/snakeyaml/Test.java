@@ -1,4 +1,4 @@
-package com.zhong.parsing.snakeyaml;
+package com.zhong.base.parsing.snakeyaml;
 
 /**
  * Created by cc on 2022/6/19

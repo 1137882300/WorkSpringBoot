@@ -1,6 +1,6 @@
 package com.zhong.define.bean;
 
-import com.zhong.entity.EntityTest;
+import com.zhong.base.entity.EntityTest;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.BeanNameGenerator;

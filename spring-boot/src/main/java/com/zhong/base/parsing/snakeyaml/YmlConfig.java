@@ -1,4 +1,4 @@
-package com.zhong.parsing.snakeyaml;
+package com.zhong.base.parsing.snakeyaml;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

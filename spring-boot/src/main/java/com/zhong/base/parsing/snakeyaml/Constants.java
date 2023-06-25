@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.zhong.parsing.snakeyaml;
+package com.zhong.base.parsing.snakeyaml;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,4 +1,4 @@
-package com.zhong.parsing.oss;
+package com.zhong.base.parsing.oss;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;

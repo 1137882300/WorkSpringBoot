@@ -18,7 +18,15 @@
         <repackage.classifier/>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
 
+        <dependency>
+            <groupId>bouncycastle</groupId>
+            <artifactId>bcprov-jdk16</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.zhong</groupId>
             <artifactId>handle-file</artifactId>
