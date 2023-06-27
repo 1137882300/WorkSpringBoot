@@ -1,0 +1,12 @@
+server:
+  port: 123456
+
+spring:
+  application:
+    name: integrated-boot-es
+
+
+
+
+
+

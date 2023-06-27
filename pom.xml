@@ -31,6 +31,9 @@
         <module>spring-gateway</module>
         <module>business_technology</module>
         <module>zzh-tool</module>
+        <module>integrated-boot-es</module>
+        <module>integrated-boot-redis</module>
+        <module>integrated-boot-mongo</module>
     </modules>
 
     <properties>
