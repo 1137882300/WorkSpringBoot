@@ -1,4 +1,4 @@
-package com.zhong.extend;
+package com.zhong.extend.aop;
 
 import org.springframework.aop.ClassFilter;
 import org.springframework.aop.support.StaticMethodMatcherPointcut;
@@ -11,6 +11,7 @@ import java.lang.reflect.Method;
  * @desc: 提供了对静态方法切入点的匹配功能。
  * 通过继承StaticMethodMatcherPointcut类，可以自定义一个静态方法切入点判断的实现。
  * 在Spring AOP的拦截器链中，该切入点所匹配的静态方法将会被拦截和增强。
+ * 切点实现
  */
 public class StaticMethodMatcherPointcutTest {
 

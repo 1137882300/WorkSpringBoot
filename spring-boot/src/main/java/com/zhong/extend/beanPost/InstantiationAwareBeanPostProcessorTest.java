@@ -1,4 +1,4 @@
-package com.zhong.extend;
+package com.zhong.extend.beanPost;
 
 /**
  * @author: juzi

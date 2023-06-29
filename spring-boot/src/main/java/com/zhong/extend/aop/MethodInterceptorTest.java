@@ -1,4 +1,4 @@
-package com.zhong.extend;
+package com.zhong.extend.aop;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @author: juzi
  * @date: 2023/6/29
  * @desc: 使用MethodInterceptor接口，你可以在目标方法执行前、执行后或异常时插入自定义的逻辑代码，实现对方法调用的拦截和增强。
+ * 切面实现
  */
 public class MethodInterceptorTest {
 

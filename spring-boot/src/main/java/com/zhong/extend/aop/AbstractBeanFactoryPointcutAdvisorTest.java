@@ -1,4 +1,4 @@
-package com.zhong.extend;
+package com.zhong.extend.aop;
 
 import org.springframework.aop.Pointcut;
 import org.springframework.aop.framework.ProxyFactory;
@@ -9,6 +9,7 @@ import org.springframework.aop.support.AbstractBeanFactoryPointcutAdvisor;
  * @date: 2023/6/29
  * @desc: 可以自定义一个基于Bean工厂的切面Advisor。
  * 在子类中实现必要的方法，并添加适合你需求的逻辑代码。然后，将该切面Advisor配置为Spring AOP中的一个组件，应用于目标类的方法拦截和增强中。
+ * 通知器实现
  */
 public class AbstractBeanFactoryPointcutAdvisorTest {
 
