@@ -39,19 +39,19 @@ public class ApiResponse<T> implements Serializable {
     }
 
     public static <T> ApiResponse<T> of(int code, String message) {
-        return new ApiResponse<T>(code, message, null);
+        return new ApiResponse<>(code, message, null);
     }
 
     public static <T> ApiResponse<T> of(int code, T data) {
-        return new ApiResponse<T>(code, "", data);
+        return new ApiResponse<>(code, "", data);
     }
 
     public static <T> ApiResponse<T> of(int code, String message, T data) {
-        return new ApiResponse<T>(code, message, data);
+        return new ApiResponse<>(code, message, data);
     }
 
     public static <T> ApiResponse<T> of(ApiResultCode resultCode, String message, T data) {
-        return new ApiResponse<T>(resultCode.code, message, data);
+        return new ApiResponse<>(resultCode.code, message, data);
     }
 
     /**
@@ -61,7 +61,7 @@ public class ApiResponse<T> implements Serializable {
      * @date 2022/4/11
      */
     public static <T> ApiResponse<T> ok() {
-        return new ApiResponse<T>(ApiResultCode.SUCCESS.code, ApiResultCode.SUCCESS.message, null);
+        return new ApiResponse<>(ApiResultCode.SUCCESS.code, ApiResultCode.SUCCESS.message, null);
     }
 
     /**
@@ -71,7 +71,7 @@ public class ApiResponse<T> implements Serializable {
      * @date 2022/4/11
      */
     public static <T> ApiResponse<T> ok(T data) {
-        return new ApiResponse<T>(ApiResultCode.SUCCESS.code, ApiResultCode.SUCCESS.message, data);
+        return new ApiResponse<>(ApiResultCode.SUCCESS.code, ApiResultCode.SUCCESS.message, data);
     }
 
     /**
@@ -81,7 +81,7 @@ public class ApiResponse<T> implements Serializable {
      * @date 2022/4/11
      */
     public static <T> ApiResponse<T> ok(String message) {
-        return new ApiResponse<T>(ApiResultCode.SUCCESS.code, message, null);
+        return new ApiResponse<>(ApiResultCode.SUCCESS.code, message, null);
     }
 
     /**
@@ -91,7 +91,7 @@ public class ApiResponse<T> implements Serializable {
      * @date 2022/4/11
      */
     public static <T> ApiResponse<T> ok(String message, T data) {
-        return new ApiResponse<T>(ApiResultCode.SUCCESS.code, message, data);
+        return new ApiResponse<>(ApiResultCode.SUCCESS.code, message, data);
     }
 
     /**
@@ -101,7 +101,7 @@ public class ApiResponse<T> implements Serializable {
      * @date 2022/4/11
      */
     public static <T> ApiResponse<T> fail() {
-        return new ApiResponse<T>(ApiResultCode.INTERNAL_SERVER_ERROR.code, ApiResultCode.SUCCESS.message, null);
+        return new ApiResponse<>(ApiResultCode.INTERNAL_SERVER_ERROR.code, ApiResultCode.SUCCESS.message, null);
     }
 
     /**
@@ -111,7 +111,7 @@ public class ApiResponse<T> implements Serializable {
      * @date 2022/4/11
      */
     public static <T> ApiResponse<T> fail(String message) {
-        return new ApiResponse<T>(ApiResultCode.INTERNAL_SERVER_ERROR.code, message, null);
+        return new ApiResponse<>(ApiResultCode.INTERNAL_SERVER_ERROR.code, message, null);
     }
 
     /**
@@ -121,7 +121,7 @@ public class ApiResponse<T> implements Serializable {
      * @date 2022/4/11
      */
     public static <T> ApiResponse<T> fail(T data) {
-        return new ApiResponse<T>(ApiResultCode.INTERNAL_SERVER_ERROR.code, ApiResultCode.INTERNAL_SERVER_ERROR.message, data);
+        return new ApiResponse<>(ApiResultCode.INTERNAL_SERVER_ERROR.code, ApiResultCode.INTERNAL_SERVER_ERROR.message, data);
     }
 
     /**
@@ -131,7 +131,7 @@ public class ApiResponse<T> implements Serializable {
      * @date 2022/4/11
      */
     public static <T> ApiResponse<T> fail(String message, T data) {
-        return new ApiResponse<T>(ApiResultCode.INTERNAL_SERVER_ERROR.code, message, data);
+        return new ApiResponse<>(ApiResultCode.INTERNAL_SERVER_ERROR.code, message, data);
     }
 
     /**

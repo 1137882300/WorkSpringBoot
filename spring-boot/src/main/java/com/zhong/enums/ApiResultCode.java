@@ -1,5 +1,7 @@
 package com.zhong.enums;
 
+import java.util.stream.Stream;
+
 /**
  * @author ashui
  * @desc 返回状态码
@@ -27,13 +29,10 @@ public enum ApiResultCode {
     }
 
     public static ApiResultCode getResultCodeByCode(int code) {
-        ApiResultCode[] values = values();
-        for (ApiResultCode item : values) {
-            if (item.code == code) {
-                return item;
-            }
-        }
-        return INTERNAL_SERVER_ERROR;
+        return Stream.of(values())
+                .filter(x -> x.code == code)
+                .findFirst()
+                .orElse(INTERNAL_SERVER_ERROR);
     }
 
 }

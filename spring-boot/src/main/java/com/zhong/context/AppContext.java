@@ -15,7 +15,7 @@ public class AppContext {
     public static boolean isPre;
     public static boolean isLocalOrDev;
     public static boolean isLocal;
-    @Value("${spring.profiles.active}")
+    @Value("${spring.profiles.active:local}")
     private String active;
 
     @PostConstruct
