@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.Objects;
 import java.util.concurrent.Callable;
+import java.util.function.Supplier;
 
 /**
  * @date 2022/6/30 15:41
@@ -12,7 +13,7 @@ import java.util.concurrent.Callable;
 public class RetryUtil {
 
     //重试的核心
-    public interface Supplier {
+    public interface RetrySupplier {
         void execute();
     }
 
@@ -22,7 +23,7 @@ public class RetryUtil {
 
 
     //重试
-    public static void retry(Supplier supplier, Integer maxTimes) throws Exception {
+    public static void retry(RetrySupplier supplier, Integer maxTimes) throws Exception {
         if (Objects.isNull(maxTimes) || maxTimes == 0) {
             maxTimes = 1;
         }
@@ -42,6 +43,20 @@ public class RetryUtil {
 
     //    有返回值
 
+    public static <V extends ResultCheck> V retryOnEx(int retryLimit, Supplier<V> retryCallable) {
+        V v = null;
+        for (int i = 0; i < retryLimit; i++) {
+            try {
+                v = retryCallable.get();
+            } catch (Exception e) {
+                log.warn("retry on " + (i + 1) + " times v = " + (v == null ? null : v.getJson()), e);
+            }
+            if (null != v && v.matching()) break;
+            log.error("retry on " + (i + 1) + " times but not matching v = " + (v == null ? null : v.getJson()));
+        }
+        return v;
+    }
+
     /**
      * 在遇到异常时尝试重试
      *
@@ -50,8 +65,7 @@ public class RetryUtil {
      * @param <V>           泛型
      * @return V 结果
      */
-    public static <V extends ResultCheck> V retryOnException(int retryLimit,
-                                                             Callable<V> retryCallable) {
+    public static <V extends ResultCheck> V retryOnException(int retryLimit, Callable<V> retryCallable) {
         V v = null;
         for (int i = 0; i < retryLimit; i++) {
             try {
