@@ -4,6 +4,7 @@ import org.springframework.core.MethodParameter;
 import org.springframework.http.HttpInputMessage;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.servlet.mvc.method.annotation.RequestBodyAdviceAdapter;
 
 import java.io.IOException;
@@ -22,7 +23,7 @@ public class RequestBodyAdviceAdapterTest {
         //该方法决定了该请求体处理器是否支持对请求的处理。您可以根据需要判断请求的类型、方法、路径等来返回一个布尔值来表示是否支持处理请求。
         @Override
         public boolean supports(MethodParameter methodParameter, Type targetType, Class<? extends HttpMessageConverter<?>> converterType) {
-            return false;
+            return methodParameter.getParameterAnnotation(RequestBody.class) != null;
         }
 
         //该方法在请求体被读取之前调用，可以在此方法中对请求体数据进行修改或预处理。您可以修改请求体的内容，例如解密、解压等，然后返回修改后的内容。
