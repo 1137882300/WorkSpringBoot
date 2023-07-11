@@ -11,7 +11,7 @@ import java.time.LocalDate;
  * @date 2022/7/20 16:25
  */
 @Component
-//@EnableScheduling
+@EnableScheduling
 @Slf4j
 public class FixedScheduled {
     /**
