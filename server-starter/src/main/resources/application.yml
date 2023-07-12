@@ -3,7 +3,7 @@ server:
 
 spring:
  application:
-   name: work-spring-boot
+   name: @artifactId@
  main:
    logginng:
      type: logback
