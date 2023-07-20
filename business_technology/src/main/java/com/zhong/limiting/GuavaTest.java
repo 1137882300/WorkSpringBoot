@@ -50,7 +50,6 @@ public class GuavaTest {
     @Aspect
     @Component
     public static class GuavaLimitAop {
-
         private static final Logger logger = LoggerFactory.getLogger(GuavaLimitAop.class);
 
         @Before("execution(@RateConfigAnno * *(..))")
