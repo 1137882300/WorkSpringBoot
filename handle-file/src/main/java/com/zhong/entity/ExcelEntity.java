@@ -3,6 +3,7 @@ package com.zhong.entity;
 import com.alibaba.excel.annotation.ExcelIgnore;
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.annotation.format.NumberFormat;
+import com.zhong.converter.BigDecimalConverter;
 import com.zhong.converter.CustomListConverter;
 import com.zhong.converter.CustomMapConverter;
 import lombok.AllArgsConstructor;
@@ -10,6 +11,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -38,6 +40,9 @@ public class ExcelEntity {
     @ExcelProperty(value = {"主标题", "Double类型"}, index = 4)
     @NumberFormat("#.##%")
     private Double doubleData;
+
+    @ExcelProperty(value = {"主标题", "BigDecimal类型"}, index = 3, converter = BigDecimalConverter.class)
+    private BigDecimal money;
 
     @ExcelProperty(value = {"主标题", "Map类型"}, index = 5, converter = CustomMapConverter.class)
     private Map<String, String> mapData;
