@@ -31,7 +31,7 @@ public class ExcelReadListener implements ReadListener<ExcelEntity> {
     /**
      * 假设这个是一个DAO，当然有业务逻辑这个也可以是一个service。当然如果不用存储这个对象没用。
      */
-    private DemoDAO demoDAO;
+    private final DemoDAO demoDAO;
 
     public ExcelReadListener() {
         // 这里是demo，所以随便new一个。实际使用如果到了spring,请使用下面的有参构造函数
