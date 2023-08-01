@@ -510,6 +510,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
             <plugin>
+                <!--编译源文件和测试源文件-->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
@@ -519,6 +520,7 @@
                 </configuration>
             </plugin>
             <plugin>
+                <!--处理源资源文件和测试资源文件-->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
                 <configuration>
@@ -535,6 +537,8 @@
         </plugins>
 
         <resources>
+            <!--<resource>标签用于定义一个资源目录-->
+            <!--<filtering>标签指定了资源文件是否需要进行过滤处理。当设置为true时，Maven会在构建过程中对资源文件进行过滤替换操作，将其中的占位符替换为实际的值-->
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
