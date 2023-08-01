@@ -22,15 +22,14 @@ public class ReflectTest {
      * yml 配置
      * <p>
      * chatbot-api:
-     *   launchList: group01,group02 # 启动几组，就配置几组
-     *   group01:
-     *     groupName: ChatGPT AI 问答助手
-     *     groupId: 28885518425541
-     *     cookie:
-     *     openAiKey:
-     *     cronExpression: 0/30 * * * * ?
-     *     silenced: false
-     *
+     * launchList: group01,group02 # 启动几组，就配置几组
+     * group01:
+     * groupName: ChatGPT AI 问答助手
+     * groupId: 28885518425541
+     * cookie:
+     * openAiKey:
+     * cronExpression: 0/30 * * * * ?
+     * silenced: false
      */
 
     public static class test implements EnvironmentAware {
@@ -42,7 +41,7 @@ public class ReflectTest {
             String launchListStr = environment.getProperty(prefix + "launchList");
             if (StringUtils.isEmpty(launchListStr)) return;
             for (String groupKey : launchListStr.split(",")) {
-                Map<String, Object> taskGroupProps = PropertyUtil.handle(environment, prefix + groupKey, Map.class);
+                Map<String, Object> taskGroupProps = PropertyUtil.handle(environment, prefix + groupKey,  Map.class);
                 taskGroupMap.put(groupKey, taskGroupProps);
             }
         }
@@ -90,6 +89,7 @@ public class ReflectTest {
 
         /**
          * @description 从Spring Boot的环境变量中获取特定前缀下的配置属性，并将其绑定到给定的目标类上。
+         * 这里将属性绑定到map上
          */
         private static Object v2(final Environment environment, final String prefix, final Class<?> targetClass) {
             try {
@@ -104,6 +104,7 @@ public class ReflectTest {
                 //前缀处理
                 String prefixParam = prefix.endsWith(".") ? prefix.substring(0, prefix.length() - 1) : prefix;
                 //调用bind方法，将配置属性绑定到目标类上，返回绑定结果对象
+                //这是核心
                 Object bindResultObject = bindMethod.invoke(binderObject, prefixParam, targetClass);
                 //获取绑定结果对象的get方法
                 Method resultGetMethod = bindResultObject.getClass().getDeclaredMethod("get");
