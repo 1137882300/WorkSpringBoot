@@ -1,4 +1,4 @@
-package com.zhong.web.base.config;
+package com.zhong.web.base.config.security;
 
 import com.zhong.web.base.filter.RegistryFilterByFactoryBean;
 import org.springframework.context.annotation.Bean;

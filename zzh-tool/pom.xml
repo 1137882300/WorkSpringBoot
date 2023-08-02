@@ -11,6 +11,12 @@
 
     <artifactId>zzh-tool</artifactId>
     <dependencies>
+
+        <dependency>
+            <artifactId>zzh-tool</artifactId>
+            <groupId>com.zhong</groupId>
+        </dependency>
+
         <!--spring-boot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

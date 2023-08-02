@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.zhong.annotation.AuthCheck;
 import com.zhong.base.entity.User;
 import com.zhong.base.service.UserService;
-import com.zhong.enums.ErrorCode;
+import com.zhong.common.ErrorCode;
 import com.zhong.exception.BusinessException;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;

@@ -1,9 +1,7 @@
-package com.zhong.enums;
+package com.zhong.common;
 
 /**
  * 错误码
- *
- * @author https://github.com/liyupi
  */
 public enum ErrorCode {
 

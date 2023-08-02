@@ -1,4 +1,4 @@
-package com.zhong.web.base.swagger.config;
+package com.zhong.web.base.config.swagger;
 
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;

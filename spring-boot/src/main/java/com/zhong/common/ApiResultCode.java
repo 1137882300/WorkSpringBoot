@@ -1,4 +1,4 @@
-package com.zhong.enums;
+package com.zhong.common;
 
 import java.util.stream.Stream;
 

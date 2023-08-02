@@ -1,7 +1,7 @@
 package com.zhong.exception;
 
 
-import com.zhong.enums.ErrorCode;
+import com.zhong.common.ErrorCode;
 
 /**
  * 自定义异常类
