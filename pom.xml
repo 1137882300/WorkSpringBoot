@@ -34,6 +34,7 @@
         <module>integrated-boot-es</module>
         <module>integrated-boot-redis</module>
         <module>integrated-boot-mongo</module>
+        <module>mapper-support</module>
     </modules>
 
     <properties>
@@ -54,7 +55,7 @@
         <springboot.version>2.3.2.RELEASE</springboot.version>
         <logstash-logback-encoder.version>6.4</logstash-logback-encoder.version>
         <druid.version>1.2.16</druid.version>
-        <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
+        <mybatis-plus.version>3.3.0</mybatis-plus.version>
         <velocity-engine.version>2.3</velocity-engine.version>
         <jackson.version>2.14.2</jackson.version>
         <snakeyaml.version>2.0</snakeyaml.version>
@@ -82,6 +83,12 @@
     <!--依赖管理-->
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <artifactId>zzh-tool</artifactId>
+                <groupId>com.zhong</groupId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
 
             <!-- 统一依赖管理 -->
             <dependency>
