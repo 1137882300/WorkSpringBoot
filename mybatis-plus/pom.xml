@@ -77,6 +77,10 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.zhong</groupId>
+            <artifactId>mapper-support</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

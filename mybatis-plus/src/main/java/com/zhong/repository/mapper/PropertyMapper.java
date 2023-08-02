@@ -1,7 +1,7 @@
 package com.zhong.repository.mapper;
 
 import com.zhong.repository.po.PropertyPO;
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.zhong.support.IMapperAdapter;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author xiao-pang
  * @since 2022-07-22
  */
-public interface PropertyMapper extends BaseMapper<PropertyPO> {
+public interface PropertyMapper extends IMapperAdapter<PropertyPO> {
 
 }
