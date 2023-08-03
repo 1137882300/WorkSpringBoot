@@ -1,0 +1,12 @@
+com.zhong.web.base.exception.base.IExceptionHandler=\
+com.zhong.web.base.exception.impl.NotFoundExceptionHandler,\
+com.zhong.web.base.exception.impl.MissingServletRequestParameterExceptionHandler,\
+com.zhong.web.base.exception.impl.MethodNotSupportedExceptionHandler,\
+com.zhong.web.base.exception.impl.HttpMediaTypeNotAcceptableExceptionHandler,\
+com.zhong.web.base.exception.impl.ApiExceptionHandler,\
+com.zhong.web.base.exception.impl.ExceptionHandler,\
+com.zhong.web.base.exception.impl.ValidationBindExceptionHandler,\
+com.zhong.web.base.exception.impl.ConstraintViolationExceptionHandler,\
+com.zhong.web.base.exception.impl.MethodArgumentNotValidExceptionHandler,\
+com.zhong.web.base.exception.impl.HttpMessageNotReadableExceptionHandler,\
+com.zhong.web.base.exception.impl.ValidationExceptionExceptionHandler

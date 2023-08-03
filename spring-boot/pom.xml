@@ -10,7 +10,6 @@
     </parent>
 
     <artifactId>spring-boot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot</name>
     <description>spring-boot</description>
     <properties>

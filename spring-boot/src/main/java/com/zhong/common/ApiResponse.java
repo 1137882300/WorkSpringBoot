@@ -108,7 +108,6 @@ public class ApiResponse<T> implements Serializable {
 
     /**
      * @desc 判断数据返回是否正常
-     * @date 2018/11/22
      */
     public boolean hasOk() {
         return ApiResultCode.SUCCESS.code == this.code;

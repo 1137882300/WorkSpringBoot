@@ -38,6 +38,10 @@
             <groupId>com.zhong</groupId>
             <artifactId>zzh-tool</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.zhong</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
     </dependencies>
 
 

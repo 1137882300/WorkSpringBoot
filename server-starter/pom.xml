@@ -23,7 +23,6 @@
         <dependency>
             <groupId>com.zhong</groupId>
             <artifactId>spring-boot</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
