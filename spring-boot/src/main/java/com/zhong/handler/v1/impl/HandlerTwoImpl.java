@@ -1,6 +1,6 @@
-package com.zhong.handler.impl;
+package com.zhong.handler.v1.impl;
 
-import com.zhong.handler.BaseHandler;
+import com.zhong.handler.v1.BaseHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

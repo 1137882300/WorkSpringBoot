@@ -1,9 +1,8 @@
-package com.zhong.handler;
+package com.zhong.handler.v1;
 
 import com.google.common.collect.Maps;
 import org.springframework.stereotype.Component;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
