@@ -35,6 +35,7 @@
         <module>integrated-boot-redis</module>
         <module>integrated-boot-mongo</module>
         <module>mapper-support</module>
+        <module>encapsulated</module>
     </modules>
 
     <properties>
