@@ -8,6 +8,11 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author juzi
+ * @date 2023/9/26 下午 4:27
+ * @description 事务的后置处理
+ */
 @Slf4j
 @Data
 @Builder
