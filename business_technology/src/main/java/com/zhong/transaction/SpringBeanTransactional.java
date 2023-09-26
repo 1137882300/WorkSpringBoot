@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @date: 2023/7/20
  * @desc: 保证事务:方式2
  */
-public class Demo_2 {
+public class SpringBeanTransactional {
 
 
     @Transactional(rollbackFor = Exception.class)
@@ -15,6 +15,9 @@ public class Demo_2 {
         //todo insert, update
 
         Helper.save();
+
+        //或者
+        //SpringUtil.getBean(xxxMapper.class).insert(xxxPO);
     }
 
     static class Helper {
@@ -23,5 +26,8 @@ public class Demo_2 {
         }
     }
 
+    private void insert() {
+
+    }
 
 }

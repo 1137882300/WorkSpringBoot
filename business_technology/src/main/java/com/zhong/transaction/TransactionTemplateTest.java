@@ -9,7 +9,7 @@ import org.springframework.transaction.support.TransactionTemplate;
  * @date: 2023/7/20
  * @desc: 保证事务:方式1
  */
-public class Demo_1 {
+public class TransactionTemplateTest {
 
     public static class TransactionTemplateSupport {
         //事务执行
@@ -21,6 +21,7 @@ public class Demo_1 {
         }
     }
 
+    // 使用
     public static class Test {
 
         private final DbPostTransaction dbPostTransaction = new DbPostTransaction();
