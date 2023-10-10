@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author: juzi
  * @date: 2023/6/29
  * @desc: ☛☛☛implements HandlerInterceptor:HTTP请求的拦截器，用于实现在处理程序执行之前、之后或请求完成之后拦截和处理HTTP请求
+ * tomcat 执行顺序：filter > servlet > interceptor > controller
  */
 public class HandlerInterceptorTest {
 

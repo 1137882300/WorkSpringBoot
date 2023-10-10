@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * @author: juzi
  * @date: 2023/5/19
- * @desc:
+ * @desc:  * tomcat 执行顺序：filter > servlet > interceptor > controller
  */
 @Slf4j
 public abstract class AbstractFilter implements Filter, AuthFilter {
