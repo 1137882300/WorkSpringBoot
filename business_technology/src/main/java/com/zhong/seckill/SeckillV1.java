@@ -34,6 +34,7 @@ public class SeckillV1 {
         }
 
 
+        //todo：解决秒杀
         //秒杀方法
         public String seckill() {
             //验证秒杀路径：为每个用户生成有效时长的秒杀路径
@@ -84,6 +85,11 @@ public class SeckillV1 {
         }
     }
 
+
+    //todo：解决超卖
+    //（1）更新的sql语句，只有当库存大于0才能更新库存
+    //（2）对用户id和商品id建立一个唯一索引，通过这种约束避免同一用户发同时两个请求秒杀到两件相同商品
+    //（3）实现乐观锁，version字段，当库存是足够的情况下发生乐观锁冲突就进行一定次数的重试。
 
     //其他，不管看
     interface RedisService {
