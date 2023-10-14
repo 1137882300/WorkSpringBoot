@@ -7,16 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="integrated-boot-es" />
+        <module name="spring-gateway" />
+        <module name="server-starter" />
+        <module name="integrated-boot-mongo" />
+        <module name="zzh-tool" />
+        <module name="web-base" />
+        <module name="redis-cache" />
         <module name="elastic-search" />
         <module name="business_technology" />
-        <module name="spring-gateway" />
+        <module name="encapsulated" />
+        <module name="mapper-support" />
         <module name="spring-boot" />
-        <module name="server-starter" />
         <module name="spring-security" />
+        <module name="common-ui" />
+        <module name="integrated-boot-redis" />
         <module name="mybatis-plus" />
-        <module name="web-base" />
         <module name="handle-file" />
-        <module name="redis-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

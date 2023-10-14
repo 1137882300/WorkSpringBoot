@@ -36,6 +36,7 @@
         <module>integrated-boot-mongo</module>
         <module>mapper-support</module>
         <module>encapsulated</module>
+        <module>common-ui</module>
     </modules>
 
     <properties>
