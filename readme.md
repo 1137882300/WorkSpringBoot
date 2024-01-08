@@ -70,6 +70,15 @@ public class $!{tableName} implements Serializable {
 ```
 
 
+``` 
+git status
+git add .idea/compiler.xml
+git restore .idea/workspace.xml
+git commit -m "Resolve merge conflicts and update files"
+git pull
+git push
+```
+
 
 
 
