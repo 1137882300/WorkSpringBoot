@@ -41,10 +41,10 @@ public class DemoTest {
         map.put("西湖风景区", 4542427);
     }
 
-    //区县对应的活动
+    //区县活动
     @Test
     public void simpleRead2() {
-        String fileName = "F:\\工作记录\\2024“宋”福杭州年文旅产品(定)(2).xls";
+        String fileName = "F:\\工作记录\\“宋”福杭州年活动-1.8.xls";
         id = 1;
         Integer type = 0;
 
@@ -108,7 +108,7 @@ public class DemoTest {
     //产品活动
     @Test
     public void simpleRead1() {
-        String fileName = "F:\\工作记录\\“宋”福杭州年活动-1.8.xls";
+        String fileName = "F:\\工作记录\\2024“宋”福杭州年文旅产品(定)(2).xls";
         id = 100;
         Integer type = 3;
 
