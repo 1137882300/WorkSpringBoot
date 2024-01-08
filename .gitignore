@@ -2,7 +2,7 @@
 /mybatis-plus/target/
 /spring-boot/target/
 target/
-
+.idea/
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -13,3 +13,5 @@ target/
 *.war
 *.rar
 workspace.xml
+.idea/compiler.xml
+.idea/encodings.xml
