@@ -5,7 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2024-1-8&#10;活动脚本">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/CompConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/CompPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/CompUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/ActionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/BaseCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/ElementCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/GroupCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IAcceptComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IBatchUpdateComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/ICurrencyComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IDisabledComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IDisabledContentComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IDisabledCustomizeComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IDisplayComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IHeightComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/ILabelComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/ILanguageComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/ILengthComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/ILinkageComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IMaterialComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IModeControlComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IMultiValuesComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/INameComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IOptionFilterPropComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IOptionsComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IPlaceholderComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IRelateCompComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IRequestComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IRequiredComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IShowSearchComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/ITipsComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IToolTipComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IValidateComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IValueComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IVisibleComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/base/IWidthComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/business/PackageCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/business/PropertiesCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/business/PropertySelectCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/business/PropertyValuePairVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/business/PropertyValueVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/business/RequestSettingsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/AlertCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/ButtonCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/CompErrorActionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/ConfirmActionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/ContainerFixedCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/ContainerHorizontalCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/ContainerKvCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/ContainerVerticalCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/KvEditorCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/SubmitActionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/TextCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/TitleCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/common/ToastActionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/BoxSpecCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/CascaderCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/CheckBoxCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/DatePickerCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/DynamicInputCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/InputCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/InputLanguageCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/InputNumberCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/LevelSelectOptionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/RadioCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/RichInputCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/RichInputLanguageCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/SearchCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/SelectCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/SelectImageCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/SelectLinkageInputCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/SelectOptionCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/SelectOptionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/StringListCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/SwitchCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/TreeSelectCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/UploadImageCompVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-ui/src/main/java/com/zhong/data/UploadMaterialCompVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +108,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -302,14 +383,7 @@
       <workItem from="1697079935202" duration="153000" />
       <workItem from="1704680978454" duration="3875000" />
       <workItem from="1704692069527" duration="11050000" />
-      <workItem from="1704709140727" duration="887000" />
-    </task>
-    <task id="LOCAL-00023" summary="2023-6-27">
-      <created>1687832696397</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1687832696397</updated>
+      <workItem from="1704709140727" duration="1973000" />
     </task>
     <task id="LOCAL-00024" summary="2023-6-27">
       <created>1687835667431</created>
@@ -647,7 +721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704707055277</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="2024-1-8&#10;活动脚本">
+      <created>1704712834687</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1704712834687</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
