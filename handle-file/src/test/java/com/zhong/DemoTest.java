@@ -67,8 +67,9 @@ public class DemoTest {
                 String activityTime = StringUtils.isBlank(demoData.getColumn5()) ? "" : demoData.getColumn5();
                 String address = StringUtils.isBlank(demoData.getColumn6()) ? "" : demoData.getColumn6();
                 String content = StringUtils.isBlank(demoData.getColumn7()) ? "" : demoData.getColumn7();
-                String contactWay = StringUtils.isBlank(demoData.getColumn8()) ? "" : demoData.getColumn8();
-                String bookingWay = StringUtils.isBlank(demoData.getColumn9()) ? "" : demoData.getColumn9();
+                //todo : 注意顺序
+                String bookingWay = StringUtils.isBlank(demoData.getColumn8()) ? "" : demoData.getColumn8();
+                String contactWay = StringUtils.isBlank(demoData.getColumn9()) ? "" : demoData.getColumn9();
                 String urls = demoData.getColumn10();
                 String sort = demoData.getColumn11();
                 int sortId = 0;
