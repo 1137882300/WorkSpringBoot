@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2023-6-9&#10;多数据源">
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/annotaion/DataSourceAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/aspect/DynamicDataSourceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/datasource/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/datasource/DynamicDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/datasource/DynamicDataSourceContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/enums/DataSourceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/zhong/repository/multiple/third/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e3548265-6550-4f00-ae71-bd6865e98002" name="Changes" comment="2024-1-8&#10;活动脚本">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="package-info" />
         <option value="Class" />
       </list>
@@ -44,8 +35,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="D:\DevelopSoftware\Maven\apache-maven-3.8.6\conf\settings.xml" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.9.0\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="nexus" />
+      </list>
     </option>
   </component>
   <component name="ProjectId" id="2O5OCLhrTWoeGNoSU6D3byGwjhU" />
@@ -53,7 +50,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -70,41 +66,50 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/WorkSpace/WorkSpringBoot/server-starter/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/root/AppData/Roaming/JetBrains/IntelliJIdea2022.2/extensions&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.sjhy.plugin.ui.TemplateSettingForm&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26378897&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;,
     &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4de81e6225c72c99d703d06babd68b57&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;d13774b2bbeb7c64c3bb0b77f9660cd4&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\WorkSpace\WorkSpringBoot\server-starter\src\main\resources" />
-      <recent name="F:\WorkSpace\WorkSpringBoot" />
-      <recent name="F:\WorkSpace\WorkSpringBoot\spring-boot\src\main\resources" />
+      <recent name="C:\Users\root\AppData\Roaming\JetBrains\IntelliJIdea2022.2\extensions" />
+      <recent name="F:\WorkSpace\WorkSpringBoot\spring-boot\src\main\java\com\zhong\handler\v3" />
+      <recent name="F:\WorkSpace\WorkSpringBoot\spring-gateway\src\main\resources\img" />
+      <recent name="F:\WorkSpace\WorkSpringBoot\web-base\src\main\java\com\zhong\web\base\config\exceptoon" />
+      <recent name="F:\WorkSpace\WorkSpringBoot\web-base\src\main\java\com\zhong\web\base\exception\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\WorkSpringBoot\business_technology\src\main\java\com\zhong\about" />
       <recent name="D:\DevelopSoftware\WorkSpace\WorkSpringBoot\business_technology\src\main\java\com\zhong\about" />
       <recent name="D:\DevelopSoftware\WorkSpace\WorkSpringBoot\business_technology\src\main\java\com\zhong" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zhong.repository.multiple.frist.dao" />
-      <recent name="com.zhong.handler.impl" />
-      <recent name="com.zhong.web.base.swagger.config" />
-      <recent name="com.zhong.web.base.swagger" />
       <recent name="com.zhong.entity" />
+      <recent name="com.zhong.object" />
+      <recent name="com.zhong.async" />
+      <recent name="com.zhong.web.base.validation.annotation" />
+      <recent name="com.zhong.web.base.validation" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #12">
-    <configuration name="DelayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhong.order.cancel.DelayQueueDemo" />
-      <module name="business_technology" />
+  <component name="RunManager" selected="JUnit.DemoTest.simpleRead1">
+    <configuration name="InvocationHandlerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhong.extend.InvocationHandlerTest" />
+      <module name="spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhong.order.cancel.*" />
+          <option name="PATTERN" value="com.zhong.extend.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +117,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="#11" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #12" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="12" requestIdentifier="#12" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="server-starter" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhong.Application" />
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handle-file" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zhong" />
+      <option name="MAIN_CLASS_NAME" value="com.zhong.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest.simpleRead1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handle-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhong" />
+      <option name="MAIN_CLASS_NAME" value="com.zhong.DemoTest" />
+      <option name="METHOD_NAME" value="simpleRead1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest.simpleRead2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="handle-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhong" />
+      <option name="MAIN_CLASS_NAME" value="com.zhong.DemoTest" />
+      <option name="METHOD_NAME" value="simpleRead2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRetryTemplateTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business_technology" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhong.retry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhong.retry" />
+      <option name="MAIN_CLASS_NAME" value="com.zhong.retry.SpringRetryTemplateTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhong.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,21 +203,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DelayQueueDemo" />
-      <item itemvalue="HTTP Request.generated-requests | #11" />
-      <item itemvalue="HTTP Request.generated-requests | #12" />
-      <item itemvalue="HTTP Request.generated-requests | #9" />
+      <item itemvalue="Application.InvocationHandlerTest" />
+      <item itemvalue="JUnit.DemoTest.simpleRead2" />
+      <item itemvalue="JUnit.DemoTest.simpleRead1" />
+      <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+      <item itemvalue="JUnit.SpringRetryTemplateTest.test" />
       <item itemvalue="Spring Boot.ESApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #12" />
-        <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.DelayQueueDemo" />
-        <item itemvalue="HTTP Request.generated-requests | #11" />
-        <item itemvalue="HTTP Request.generated-requests | #9" />
+        <item itemvalue="JUnit.DemoTest.simpleRead1" />
+        <item itemvalue="JUnit.DemoTest.simpleRead2" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="JUnit.SpringRetryTemplateTest.test" />
+        <item itemvalue="Application.InvocationHandlerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,142 +252,402 @@
       <workItem from="1685601745530" duration="1069000" />
       <workItem from="1685604085852" duration="1424000" />
       <workItem from="1685674614589" duration="640000" />
-      <workItem from="1686298495206" duration="4076000" />
+      <workItem from="1686298495206" duration="4911000" />
+      <workItem from="1686536835371" duration="711000" />
+      <workItem from="1686620861875" duration="1172000" />
+      <workItem from="1686622317511" duration="2533000" />
+      <workItem from="1686710751271" duration="1216000" />
+      <workItem from="1686799813198" duration="506000" />
+      <workItem from="1686886283042" duration="2117000" />
+      <workItem from="1687658133263" duration="3804000" />
+      <workItem from="1687831101749" duration="12373000" />
+      <workItem from="1688003212701" duration="17763000" />
+      <workItem from="1688087506218" duration="3739000" />
+      <workItem from="1688091290164" duration="4169000" />
+      <workItem from="1688346181445" duration="1788000" />
+      <workItem from="1688535477787" duration="1053000" />
+      <workItem from="1688552003190" duration="89000" />
+      <workItem from="1688605502607" duration="85000" />
+      <workItem from="1688714082141" duration="1199000" />
+      <workItem from="1688979821426" duration="785000" />
+      <workItem from="1689038891970" duration="3271000" />
+      <workItem from="1689125235370" duration="1308000" />
+      <workItem from="1689843710087" duration="1708000" />
+      <workItem from="1690507072054" duration="6963000" />
+      <workItem from="1690771891741" duration="9243000" />
+      <workItem from="1690869661379" duration="7116000" />
+      <workItem from="1690939159400" duration="688000" />
+      <workItem from="1690940509759" duration="10392000" />
+      <workItem from="1690963943573" duration="4339000" />
+      <workItem from="1691035172059" duration="8217000" />
+      <workItem from="1691372198631" duration="3605000" />
+      <workItem from="1691736180271" duration="3467000" />
+      <workItem from="1691975152923" duration="157000" />
+      <workItem from="1691981404889" duration="5614000" />
+      <workItem from="1692084601824" duration="581000" />
+      <workItem from="1692252168673" duration="646000" />
+      <workItem from="1692256454060" duration="820000" />
+      <workItem from="1692344701500" duration="680000" />
+      <workItem from="1693537140446" duration="1248000" />
+      <workItem from="1694163429213" duration="1060000" />
+      <workItem from="1694671381191" duration="5710000" />
+      <workItem from="1694740466415" duration="27000" />
+      <workItem from="1695354309414" duration="23000" />
+      <workItem from="1695714898583" duration="3888000" />
+      <workItem from="1696744980728" duration="309000" />
+      <workItem from="1696814555888" duration="913000" />
+      <workItem from="1696821728979" duration="1282000" />
+      <workItem from="1696903051189" duration="7296000" />
+      <workItem from="1697075764856" duration="698000" />
+      <workItem from="1697079935202" duration="153000" />
+      <workItem from="1704680978454" duration="3875000" />
+      <workItem from="1704692069527" duration="11050000" />
+      <workItem from="1704709140727" duration="887000" />
     </task>
-    <task id="LOCAL-00001" summary="压测包">
-      <created>1680848599462</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00023" summary="2023-6-27">
+      <created>1687832696397</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1680848599462</updated>
+      <updated>1687832696397</updated>
     </task>
-    <task id="LOCAL-00002" summary="压测包">
-      <created>1681107369209</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00024" summary="2023-6-27">
+      <created>1687835667431</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1681107369209</updated>
+      <updated>1687835667431</updated>
     </task>
-    <task id="LOCAL-00003" summary="2023-4-12">
-      <created>1681300435715</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00025" summary="2023-6-27">
+      <created>1687835929226</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1681300435715</updated>
+      <updated>1687835929226</updated>
     </task>
-    <task id="LOCAL-00004" summary="2023-4-21">
-      <created>1682071359481</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00026" summary="2023-6-27">
+      <created>1687846237766</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1682071359481</updated>
+      <updated>1687846237766</updated>
     </task>
-    <task id="LOCAL-00005" summary="2023-5-27&#10;定时">
-      <created>1685167743199</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00027" summary="2023-6-27&#10;读取 Springboot 的配置 ，有哪些方式，列举所有">
+      <created>1687858328750</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1685167743199</updated>
+      <updated>1687858328750</updated>
     </task>
-    <task id="LOCAL-00006" summary="2023-5-10">
-      <created>1683707980664</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00028" summary="2023-6-27&#10;扩展">
+      <created>1688011294965</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1683707980664</updated>
+      <updated>1688011294965</updated>
     </task>
-    <task id="LOCAL-00007" summary="2023-5-10">
-      <created>1683713559189</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00029" summary="2023-6-27&#10;扩展">
+      <created>1688030032578</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1683713559189</updated>
+      <updated>1688030032578</updated>
     </task>
-    <task id="LOCAL-00008" summary="2023-5-12&#10;Swagger">
-      <created>1683880830289</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00030" summary="2023-6-27&#10;扩展">
+      <created>1688032598822</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1683880830289</updated>
+      <updated>1688032598822</updated>
     </task>
-    <task id="LOCAL-00009" summary="2023-5-16&#10;handler模式">
-      <created>1684203891279</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00031" summary="2023-6-27&#10;扩展">
+      <created>1688032959381</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1684203891281</updated>
+      <updated>1688032959381</updated>
     </task>
-    <task id="LOCAL-00010" summary="2023-5-16&#10;handler模式">
-      <created>1684203946865</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00032" summary="2023-6-27&#10;扩展">
+      <created>1688087686358</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1684203946865</updated>
+      <updated>1688087686358</updated>
     </task>
-    <task id="LOCAL-00011" summary="2023-5-16">
-      <created>1684204027072</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00033" summary="2023-6-30&#10;限流的7种方案">
+      <created>1688094477665</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1684204027072</updated>
+      <updated>1688094477671</updated>
     </task>
-    <task id="LOCAL-00012" summary="2023-5-22&#10;define bean">
-      <created>1684725670046</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+    <task id="LOCAL-00034" summary="2023-6-30&#10;限流的7种方案">
+      <created>1688095653237</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1684725670046</updated>
+      <updated>1688095653237</updated>
     </task>
-    <task id="LOCAL-00013" summary="2023-5-22&#10;define bean">
-      <created>1684725941108</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+    <task id="LOCAL-00035" summary="2023-6-30&#10;请求的拓展">
+      <created>1688714587099</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1684725941108</updated>
+      <updated>1688714587099</updated>
     </task>
-    <task id="LOCAL-00014" summary="2023-5-22">
-      <created>1684831329145</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+    <task id="LOCAL-00036" summary="2023-6-30&#10;请求的拓展">
+      <created>1688714678757</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1684831329145</updated>
+      <updated>1688714678757</updated>
     </task>
-    <task id="LOCAL-00015" summary="2023-5-29&#10;retrofit-spring-boot-starter">
-      <created>1685322820582</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+    <task id="LOCAL-00037" summary="2023-6-30&#10;Scheduling的拓展">
+      <created>1688984698288</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1685322820583</updated>
+      <updated>1688984698288</updated>
     </task>
-    <task id="LOCAL-00016" summary="2023-5-30&#10;自动生成代码">
-      <created>1685439182600</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+    <task id="LOCAL-00038" summary="2023-6-30&#10;配置-拓展">
+      <created>1689040983414</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1685439182600</updated>
+      <updated>1689040983414</updated>
     </task>
-    <task id="LOCAL-00017" summary="2023-6-1">
-      <created>1685603180711</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+    <task id="LOCAL-00039" summary="2023-6-30">
+      <created>1689042287351</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1685603180711</updated>
+      <updated>1689042287351</updated>
     </task>
-    <task id="LOCAL-00018" summary="2023-6-2">
-      <created>1685674872436</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+    <task id="LOCAL-00040" summary="2023-6-30&#10;yml -&gt; pom : @">
+      <created>1689125369382</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1685674872436</updated>
+      <updated>1689125369382</updated>
     </task>
-    <task id="LOCAL-00019" summary="2023-6-9&#10;多数据源">
-      <created>1686300808885</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
+    <task id="LOCAL-00041" summary="2023-7-20&#10;保证事务">
+      <created>1689845381084</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1686300808885</updated>
+      <updated>1689845381084</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00042" summary="2023-7-20&#10;重试">
+      <created>1690512469916</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1690512469917</updated>
+    </task>
+    <task id="LOCAL-00043" summary="2023-7-20&#10;事务后置处理">
+      <created>1690513324579</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1690513324579</updated>
+    </task>
+    <task id="LOCAL-00044" summary="2023-7-20&#10;部分读，全部读 excel">
+      <created>1690774545445</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1690774545445</updated>
+    </task>
+    <task id="LOCAL-00045" summary="2023-7-31&#10;excel">
+      <created>1690791976983</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1690791976983</updated>
+    </task>
+    <task id="LOCAL-00046" summary="2023-8-1&#10;bindMethod.invoke(binderObject, prefixParam, targetClass);">
+      <created>1690873632816</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1690873632816</updated>
+    </task>
+    <task id="LOCAL-00047" summary="2023-8-1&#10;pom.xml">
+      <created>1690875556372</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1690875556372</updated>
+    </task>
+    <task id="LOCAL-00048" summary="2023-8-2&#10;mapper-support">
+      <created>1690941730933</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1690941730933</updated>
+    </task>
+    <task id="LOCAL-00049" summary="2023-8-2&#10;mapper-support">
+      <created>1690942998802</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1690942998802</updated>
+    </task>
+    <task id="LOCAL-00050" summary="2023-8-2&#10;Validator">
+      <created>1690955362119</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1690955362119</updated>
+    </task>
+    <task id="LOCAL-00051" summary="2023-8-2&#10;redis">
+      <created>1690967272905</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1690967272906</updated>
+    </task>
+    <task id="LOCAL-00052" summary="2023-8-3&#10;Exception">
+      <created>1691047581731</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1691047581731</updated>
+    </task>
+    <task id="LOCAL-00053" summary="2023-8-7&#10;网关">
+      <created>1691374912208</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1691374912209</updated>
+    </task>
+    <task id="LOCAL-00054" summary="2023-8-11&#10;handler的实现v2">
+      <created>1691737319265</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1691737319265</updated>
+    </task>
+    <task id="LOCAL-00055" summary="2023-8-11&#10;v3 自动注入首选 @Primary">
+      <created>1691738233169</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1691738233169</updated>
+    </task>
+    <task id="LOCAL-00056" summary="2023-8-14&#10;event">
+      <created>1691984376483</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1691984376483</updated>
+    </task>
+    <task id="LOCAL-00057" summary="2023-8-15&#10;接口不能对外暴露">
+      <created>1692085076115</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1692085076115</updated>
+    </task>
+    <task id="LOCAL-00058" summary="2023-9-1&#10;ConstraintValidator">
+      <created>1693537244849</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1693537244858</updated>
+    </task>
+    <task id="LOCAL-00059" summary="2023-9-8">
+      <created>1694163888631</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1694163888631</updated>
+    </task>
+    <task id="LOCAL-00060" summary="2023-9-14&#10;ConditionTest.java">
+      <created>1694677014432</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1694677014432</updated>
+    </task>
+    <task id="LOCAL-00061" summary="2023-9-26&#10;事务相关">
+      <created>1695716400573</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1695716400573</updated>
+    </task>
+    <task id="LOCAL-00062" summary="2023-9-26&#10;事务相关">
+      <created>1695716845915</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1695716845915</updated>
+    </task>
+    <task id="LOCAL-00063" summary="2023-10-08&#10;线程池配置">
+      <created>1696745251614</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1696745251614</updated>
+    </task>
+    <task id="LOCAL-00064" summary="2023-10-09&#10;map类型 配置">
+      <created>1696814869205</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1696814869205</updated>
+    </task>
+    <task id="LOCAL-00065" summary="2023-10-09&#10;ObjUtil">
+      <created>1696822406712</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1696822406712</updated>
+    </task>
+    <task id="LOCAL-00066" summary="2023-10-10&#10;秒杀">
+      <created>1696907419196</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1696907419196</updated>
+    </task>
+    <task id="LOCAL-00067" summary="2023-10-10&#10;秒杀">
+      <created>1696907923934</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1696907923934</updated>
+    </task>
+    <task id="LOCAL-00068" summary="2023-10-10&#10;配置">
+      <created>1696908478524</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1696908478524</updated>
+    </task>
+    <task id="LOCAL-00069" summary="2023-10-10&#10; tomcat 执行顺序：filter &gt; servlet &gt; interceptor &gt; controller">
+      <created>1696909363300</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1696909363300</updated>
+    </task>
+    <task id="LOCAL-00070" summary="2024-1-8&#10;活动脚本">
+      <created>1704706994628</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1704706994629</updated>
+    </task>
+    <task id="LOCAL-00071" summary="2024-1-8&#10;活动脚本">
+      <created>1704707055277</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1704707055277</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,21 +666,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="压测包" />
-    <MESSAGE value="2023-4-12" />
-    <MESSAGE value="2023-4-21" />
-    <MESSAGE value="2023-5-10" />
-    <MESSAGE value="2023-5-12&#10;Swagger" />
-    <MESSAGE value="2023-5-12&#10;handler模式" />
-    <MESSAGE value="2023-5-16&#10;handler模式" />
-    <MESSAGE value="2023-5-16" />
-    <MESSAGE value="2023-5-22&#10;define bean" />
-    <MESSAGE value="2023-5-22" />
-    <MESSAGE value="2023-5-29&#10;retrofit-spring-boot-starter" />
-    <MESSAGE value="2023-5-30&#10;自动生成代码" />
-    <MESSAGE value="2023-6-1" />
-    <MESSAGE value="2023-6-2" />
-    <MESSAGE value="2023-6-9&#10;多数据源" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-6-9&#10;多数据源" />
+    <MESSAGE value="2023-7-20&#10;部分读，全部读 excel" />
+    <MESSAGE value="2023-7-31&#10;excel" />
+    <MESSAGE value="2023-8-1&#10;bindMethod.invoke(binderObject, prefixParam, targetClass);" />
+    <MESSAGE value="2023-8-1&#10;pom.xml" />
+    <MESSAGE value="2023-8-1&#10;mapper-support" />
+    <MESSAGE value="2023-8-2&#10;mapper-support" />
+    <MESSAGE value="2023-8-2&#10;Validator" />
+    <MESSAGE value="2023-8-2&#10;redis" />
+    <MESSAGE value="2023-8-3&#10;Exception" />
+    <MESSAGE value="2023-8-7&#10;网关" />
+    <MESSAGE value="2023-8-11&#10;handler的实现v2" />
+    <MESSAGE value="2023-8-11&#10;v3 自动注入首选 @Primary" />
+    <MESSAGE value="2023-8-14&#10;event" />
+    <MESSAGE value="2023-8-15&#10;接口不能对外暴露" />
+    <MESSAGE value="2023-9-1&#10;ConstraintValidator" />
+    <MESSAGE value="2023-9-8" />
+    <MESSAGE value="2023-9-14&#10;ConditionTest.java" />
+    <MESSAGE value="2023-9-26&#10;事务相关" />
+    <MESSAGE value="2023-10-08&#10;线程池配置" />
+    <MESSAGE value="2023-10-09&#10;map类型 配置" />
+    <MESSAGE value="2023-10-09&#10;ObjUtil" />
+    <MESSAGE value="2023-10-10&#10;秒杀" />
+    <MESSAGE value="2023-10-10&#10;配置" />
+    <MESSAGE value="2023-10-10&#10; tomcat 执行顺序：filter &gt; servlet &gt; interceptor &gt; controller" />
+    <MESSAGE value="2024-1-8&#10;活动脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-1-8&#10;活动脚本" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
