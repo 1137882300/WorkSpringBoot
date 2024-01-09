@@ -43,8 +43,8 @@ public class DemoTest {
 
     //区县活动
     @Test
-    public void simpleRead2() {
-        String fileName = "F:\\工作记录\\“宋”福杭州年活动-1.8.xls";
+    public void simpleRead1() {
+        String fileName = "F:\\工作记录\\“宋”福杭州年活动19.xls";
         id = 1;
         Integer type = 0;
 
@@ -108,9 +108,9 @@ public class DemoTest {
 
     //产品活动
     @Test
-    public void simpleRead1() {
-        String fileName = "F:\\工作记录\\2024“宋”福杭州年文旅产品(定)(2).xls";
-        id = 100;
+    public void simpleRead2() {
+        String fileName = "F:\\工作记录\\2024“宋”福杭州年文旅产品(定)(4).xls";
+        id = 260;
         Integer type = 3;
 
         List<String> sqlList = new ArrayList<>();
@@ -132,8 +132,8 @@ public class DemoTest {
                 String activityTime = StringUtils.isBlank(demoData.getColumn5()) ? "" : demoData.getColumn5();
                 String address = StringUtils.isBlank(demoData.getColumn6()) ? "" : demoData.getColumn6();
                 String content = StringUtils.isBlank(demoData.getColumn7()) ? "" : demoData.getColumn7();
-                String contactWay = StringUtils.isBlank(demoData.getColumn8()) ? "" : demoData.getColumn8();
-                String bookingWay = StringUtils.isBlank(demoData.getColumn9()) ? "" : demoData.getColumn9();
+                String bookingWay = StringUtils.isBlank(demoData.getColumn8()) ? "" : demoData.getColumn8();
+                String contactWay = StringUtils.isBlank(demoData.getColumn9()) ? "" : demoData.getColumn9();
                 String urls = demoData.getColumn10();
                 String sort = demoData.getColumn11();
                 int sortId = 0;
@@ -162,8 +162,8 @@ public class DemoTest {
             }
         })).sheet().headRowNumber(2).doRead();
 
-        FileUtil.writeUtf8Lines(sqlList, new File("活动sql222.sql"));
-        FileUtil.writeUtf8Lines(sqlImgList, new File("活动sqlImg222.sql"));
+        FileUtil.writeUtf8Lines(sqlList, new File("产品活动sql222.sql"));
+        FileUtil.writeUtf8Lines(sqlImgList, new File("产品活动sqlImg222.sql"));
     }
 
 }
