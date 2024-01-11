@@ -17,6 +17,7 @@ import java.util.Map;
  * @desc: 与ImportSelector用法与用途类似，但是如果我们想重定义Bean，例如动态注入属性，改变Bean的类型和Scope等等，
  * 就需要通过指定实现ImportBeanDefinitionRegistrar的类实现。
  * 注册多租户数据源
+ * ===> 运行时动态注册 Bean 定义
  */
 public class ImportBeanDefinitionRegistrarDemo implements ImportBeanDefinitionRegistrar {
 

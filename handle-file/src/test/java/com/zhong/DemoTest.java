@@ -109,8 +109,8 @@ public class DemoTest {
     //产品活动
     @Test
     public void simpleRead2() {
-        String fileName = "F:\\工作记录\\2024“宋”福杭州年文旅产品(定)(4).xls";
-        id = 260;
+        String fileName = "F:\\工作记录\\新增产品1.10.xlsx";
+        id = 343;
         Integer type = 3;
 
         List<String> sqlList = new ArrayList<>();
