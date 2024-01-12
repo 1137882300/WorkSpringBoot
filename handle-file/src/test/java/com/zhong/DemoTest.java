@@ -44,8 +44,8 @@ public class DemoTest {
     //区县活动
     @Test
     public void simpleRead1() {
-        String fileName = "F:\\工作记录\\“宋”福杭州年活动19.xls";
-        id = 1;
+        String fileName = "C:\\Users\\root\\Downloads\\活动新增1.12.xlsx";
+        id = 350;
         Integer type = 0;
 
         List<String> sqlList = new ArrayList<>();
@@ -97,7 +97,7 @@ public class DemoTest {
                 }
 
             }
-        })).sheet().headRowNumber(2).doRead();
+        })).sheet().headRowNumber(1).doRead();
 
         FileUtil.writeUtf8Lines(sqlList, new File("活动sql111.sql"));
         FileUtil.writeUtf8Lines(sqlImgList, new File("活动sqlImg111.sql"));
