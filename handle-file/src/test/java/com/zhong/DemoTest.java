@@ -44,7 +44,7 @@ public class DemoTest {
     //区县活动
     @Test
     public void simpleRead1() {
-        String fileName = "C:\\Users\\root\\Downloads\\活动新增1.12.xlsx";
+        String fileName = "F:\\工作记录\\活动新增2.1(1).xlsx";
         id = 350;
         Integer type = 0;
 
