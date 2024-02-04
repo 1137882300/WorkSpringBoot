@@ -76,6 +76,13 @@
             <groupId>com.zhong</groupId>
             <artifactId>zzh-tool</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15to18</artifactId>
+            <version>1.69</version>
+        </dependency>
+
     </dependencies>
 
 </project>
