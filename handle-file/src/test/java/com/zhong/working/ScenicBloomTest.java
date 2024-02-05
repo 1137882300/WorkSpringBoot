@@ -12,6 +12,8 @@ import reactor.util.function.Tuples;
 import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -43,11 +45,20 @@ public class ScenicBloomTest {
 
 
                 for (Tuple3<Date, Date, String> tuple3 : list) {
-                    sqlList.add(
-                            String.format("INSERT INTO \"public\".\"mall_scenic_bloom\"(\"scenic_id\", \"bloom_percent\", \"start_at\", \"end_at\", \"florescence\")\n" +
-                                            "VALUES (%s, '%s', '%s', '%s', '%s');",
-                                    scenicId, tuple3.getT3(), tuple3.getT1(), tuple3.getT2(), florescence)
-                    );
+                    Date startDate = tuple3.getT1();
+                    Date endDate = tuple3.getT2();
+                    LocalDate startLocalDate = startDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+                    LocalDate endLocalDate = endDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+                    while (startLocalDate.compareTo(endLocalDate) <= 0) {
+
+                        sqlList.add(
+                                String.format("INSERT INTO \"public\".\"mall_scenic_bloom\"(\"scenic_id\", \"bloom_percent\", \"start_at\", \"florescence\")" +
+                                                "VALUES (%s, '%s', '%s', '%s');",
+                                        scenicId, tuple3.getT3(), startLocalDate, florescence)
+                        );
+
+                        startLocalDate = startLocalDate.plusDays(1);
+                    }
                 }
             }
         })).sheet().headRowNumber(2).doRead();
