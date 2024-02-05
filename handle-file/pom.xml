@@ -82,6 +82,11 @@
             <artifactId>bcprov-jdk15to18</artifactId>
             <version>1.69</version>
         </dependency>
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 
