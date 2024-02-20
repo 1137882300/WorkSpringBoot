@@ -28,7 +28,7 @@ public class ScenicBloomTest {
 
     public static void main(String[] args) {
         List<String> sqlList = Lists.newArrayList();
-        String fileName = "F:\\工作记录\\2024杭州赏梅花开进度表-2.4.xlsx";
+        String fileName = "F:\\工作记录\\2024杭州赏梅花开进度表-2.20.xlsx";
 
         EasyExcel.read(fileName, ExcelDemoEntity.class, new PageReadListener<ExcelDemoEntity>(dataList -> {
             for (ExcelDemoEntity entity : dataList) {
