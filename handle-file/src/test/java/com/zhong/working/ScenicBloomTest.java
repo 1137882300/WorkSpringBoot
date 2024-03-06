@@ -28,18 +28,19 @@ public class ScenicBloomTest {
 
     public static void main(String[] args) {
         List<String> sqlList = Lists.newArrayList();
-        String fileName = "F:\\工作记录\\2024杭州赏梅花开进度表-2.20.xlsx";
+        String fileName = "F:\\工作记录\\2024赏樱地图开花进度表—20240306.xlsx";
 
         EasyExcel.read(fileName, ExcelDemoEntity.class, new PageReadListener<ExcelDemoEntity>(dataList -> {
             for (ExcelDemoEntity entity : dataList) {
-                String scenicId = entity.getColumn2();
-                String florescence = entity.getColumn4();
-                String one = entity.getColumn5();
-                String two = entity.getColumn6();
-                String three = entity.getColumn7();
+                String poiId = entity.getColumn1();
+//                String scenicId = entity.getColumn2();
+                String florescence = entity.getColumn5();
+                String one = entity.getColumn6();
+                String two = entity.getColumn7();
+                String three = entity.getColumn8();
 
                 List<Tuple3<Date, Date, String>> list = Lists.newArrayList();
-                list.add(doDate(one, "0.2"));
+                list.add(doDate(one, "0.25"));
                 list.add(doDate(two, "0.5"));
                 list.add(doDate(three, "1"));
 
@@ -52,9 +53,9 @@ public class ScenicBloomTest {
                     while (startLocalDate.compareTo(endLocalDate) <= 0) {
 
                         sqlList.add(
-                                String.format("INSERT INTO \"public\".\"mall_scenic_bloom\"(\"scenic_id\", \"bloom_percent\", \"start_at\", \"florescence\")" +
+                                String.format("INSERT INTO \"public\".\"mall_scenic_bloom\"(\"poi_id\", \"bloom_percent\", \"start_at\", \"florescence\")" +
                                                 "VALUES (%s, '%s', '%s', '%s');",
-                                        scenicId, tuple3.getT3(), startLocalDate, florescence)
+                                        poiId, tuple3.getT3(), startLocalDate, florescence)
                         );
 
                         startLocalDate = startLocalDate.plusDays(1);
@@ -69,10 +70,13 @@ public class ScenicBloomTest {
 
     @SneakyThrows
     public static Tuple3<Date, Date, String> doDate(String dateStr, String bloom_percent) {
+        System.out.println(dateStr);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日", Locale.CHINA);
         String[] dateParts = dateStr.split("-");
-        Date startDate = sdf.parse("2024年" + dateParts[0]);
-        Date endDate = sdf.parse("2024年" + dateParts[1]);
+//        Date startDate = sdf.parse("2024年" + dateParts[0]);
+        Date startDate = sdf.parse(dateParts[0]);
+//        Date endDate = sdf.parse("2024年" + dateParts[1]);
+        Date endDate = sdf.parse(dateParts[1]);
         return Tuples.of(startDate, endDate, bloom_percent);
     }
 
