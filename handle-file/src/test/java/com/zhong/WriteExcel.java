@@ -22,7 +22,7 @@ public class WriteExcel {
             data.setStringData("字符串字符串字符串字符串字符串字符串字符串字符串字符串" + i);
             data.setDateData(new Date());
             data.setDoubleData(0.56);
-            data.setBooleanData(true);
+//            data.setBooleanData(true);
 //            data.setListData(new ArrayList<>());
             data.setLongData(123L);
             list.add(data);
