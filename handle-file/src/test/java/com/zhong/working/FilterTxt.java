@@ -33,10 +33,10 @@ public class FilterTxt {
 
     private List<ExcelDemoEntity> data() {
         List<ExcelDemoEntity> list = Lists.newArrayList();
-        String fileName = "F:\\工作记录\\短笔记.xlsx";
+        String fileName = "E:\\导出-展览2-3-25.xlsx";
         EasyExcel.read(fileName, ExcelDemoEntity.class, new PageReadListener<ExcelDemoEntity>(dataList -> {
             for (ExcelDemoEntity entity : dataList) {
-                String inputText = entity.getColumn5();
+                String inputText = entity.getColumn3();
 
                 //1.
 //                String chinesePattern = "[\\u4e00-\\u9fa5]+";
@@ -51,21 +51,22 @@ public class FilterTxt {
 //                }
 
                 //2.
-                String strippedText = removeEmojis(inputText);
+//                String strippedText = removeEmojis(inputText);
 
                 //3.
-//                String strippedText = "";
-//                if (StringUtils.isNotBlank(inputText)) {
-//                    strippedText = inputText.replaceAll("<[^>]+>", "");
-//                }
+                String strippedText = "";
+                if (StringUtils.isNotBlank(inputText)) {
+                    strippedText = inputText.replaceAll("<[^>]+>", "");
+                }
                 ExcelDemoEntity data = new ExcelDemoEntity();
                 data.setColumn1(entity.getColumn1());
                 data.setColumn2(entity.getColumn2());
-                data.setColumn3(entity.getColumn3());
+                data.setColumn3(strippedText);
                 data.setColumn4(entity.getColumn4());
-                data.setColumn5(strippedText);
+                data.setColumn5(entity.getColumn5());
                 data.setColumn6(entity.getColumn6());
                 data.setColumn7(entity.getColumn7());
+                data.setColumn8(entity.getColumn8());
 //                data.setColumn3(chineseText.toString());
                 list.add(data);
             }
@@ -80,7 +81,7 @@ public class FilterTxt {
 
         // 写法1 JDK8+
         // since: 3.0.0-beta1
-        String fileName = "E:\\笔记fix-3-13.xlsx";
+        String fileName = "E:\\导出-展览2-fix-3-13.xlsx";
         // 这里 需要指定写用哪个class去写，然后写到第一个sheet，名字为模板 然后文件流会自动关闭
         // 如果这里想使用03 则 传入excelType参数即可
         // 分页查询数据
