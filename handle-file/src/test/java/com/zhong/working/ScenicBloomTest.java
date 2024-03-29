@@ -28,7 +28,7 @@ public class ScenicBloomTest {
 
     public static void main(String[] args) {
         List<String> sqlList = Lists.newArrayList();
-        String fileName = "F:\\工作记录\\2024赏桃地图开花进度表0321.xlsx";
+        String fileName = "F:\\工作记录\\2024杜鹃花地图—20240328.xlsx";
 
         EasyExcel.read(fileName, ExcelDemoEntity.class, new PageReadListener<ExcelDemoEntity>(dataList -> {
             for (ExcelDemoEntity entity : dataList) {
@@ -39,7 +39,8 @@ public class ScenicBloomTest {
                 String two = entity.getColumn4();
                 String three = entity.getColumn5();
 
-                Integer type = 2;
+                //杜鹃花
+                Integer type = 3;
 
                 List<Tuple3<Date, Date, String>> list = Lists.newArrayList();
                 list.add(doDate(one, "0.25"));
