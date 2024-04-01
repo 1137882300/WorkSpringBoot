@@ -49,6 +49,9 @@ public class ExcelDemoEntity {
     @ExcelProperty(value = "第11列", index = 10)
     private String column11;
 
+    @ExcelProperty(value = "第14列", index = 13)
+    private String column14;
+
     @ExcelIgnore
     private Long Id;
 }
