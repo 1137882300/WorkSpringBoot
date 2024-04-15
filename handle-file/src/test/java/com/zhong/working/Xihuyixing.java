@@ -24,6 +24,16 @@ import java.util.stream.Collectors;
  */
 public class Xihuyixing {
 
+    public static void main(String[] args) {
+//        main2();
+        main3();
+    }
+
+    public static void main3() {
+        Map<String, String> map = readExcel();
+        System.out.println(map.keySet());
+    }
+
     public static void main1(String[] args) {
         List<String> phoneList = Lists.newArrayList();
 
@@ -45,7 +55,7 @@ public class Xihuyixing {
         System.out.println(uidList);
     }
 
-    public static void main(String[] args) {
+    public static void main2() {
 
         Map<String, ExcelDemoEntity> userMap = readWalkV2();
 
@@ -77,13 +87,13 @@ public class Xihuyixing {
             if (yxkMap.containsKey(phone)) {
                 ExcelDemoEntity yxkEntity = yxkMap.get(phone);
                 //订单号
-                write.setColumn7(yxkEntity.getColumn2());
+                write.setColumn7(yxkEntity.getColumn3());
                 //客商号
-                write.setColumn8(yxkEntity.getColumn2());
+                write.setColumn8(yxkEntity.getColumn1() + "/" + yxkEntity.getColumn6() + "/" + phone);
                 //计划号
-                write.setColumn9(yxkEntity.getColumn2());
+                write.setColumn9(yxkEntity.getColumn5());
                 //金额
-                write.setColumn10(yxkEntity.getColumn2());
+                write.setColumn10(yxkEntity.getColumn4());
             }
             writeList.add(write);
         });
@@ -99,7 +109,7 @@ public class Xihuyixing {
 
     private static List<ExcelDemoEntity> readYXK() {
         List<ExcelDemoEntity> list = Lists.newArrayList();
-        String fileName = "/Users/pangmengting/Downloads/游侠客平台.xlsx";
+        String fileName = "/Users/pangmengting/Downloads/yxk-导出.xlsx";
         try {
             EasyExcel.read(fileName, ExcelDemoEntity.class, new PageReadListener<ExcelDemoEntity>(list::addAll))
                     .sheet()
