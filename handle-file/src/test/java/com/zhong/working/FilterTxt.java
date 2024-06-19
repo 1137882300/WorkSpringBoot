@@ -124,5 +124,12 @@ public class FilterTxt {
         System.out.println("去除表情符号后的文本为：" + strippedText);
     }
 
+    public static void main(String[] args) {
+        String strippedText = "";
+        if (StringUtils.isNotBlank(strippedText)) {
+            strippedText = strippedText.replaceAll("<[^>]+>", "");
+            System.out.println(strippedText);
+        }
+    }
 
 }

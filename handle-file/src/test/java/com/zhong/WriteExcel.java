@@ -4,6 +4,7 @@ import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.util.ListUtils;
 import com.alibaba.excel.write.style.column.LongestMatchColumnWidthStyleStrategy;
 import com.zhong.entity.ExcelEntity;
+import org.apache.poi.xssf.streaming.SXSSFSheet;
 import org.junit.Test;
 
 import java.io.File;
@@ -36,7 +37,7 @@ public class WriteExcel {
 
         // 写法1 JDK8+
         // since: 3.0.0-beta1
-        String fileName = "C:\\Users\\cc\\Documents\\测试文档" + File.separator + "写入1.xlsx";
+        String fileName = "/Users/pangmengting/Downloads/aaaa.xlsx";
         // 这里 需要指定写用哪个class去写，然后写到第一个sheet，名字为模板 然后文件流会自动关闭
         // 如果这里想使用03 则 传入excelType参数即可
         // 分页查询数据
